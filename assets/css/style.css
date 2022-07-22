@@ -121,7 +121,7 @@ a:hover,a.active{
 #section1 {
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/astronaught1.jpg) no-repeat center center;
   background-size: cover;
-  background-color: darkblue;
+  background-color: black;
   width: 100%;
 }
 
@@ -309,10 +309,12 @@ ol {
   }
   
 #movies-page {
-    background-color: #f7f4ed;
-    height: 1000px;
-    width: 100%;
-  }
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/satellite.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+}
 
 footer {
     background: #000;
