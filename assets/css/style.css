@@ -49,12 +49,12 @@ nav ul li a {
 
 /*hover effects on the navigation bar links*/
 
-.active, a:hover{
+.nav-hover:hover{
   background: #e62e00;
   transition: .5s;
 }
 
-.active:hover{
+.contact-hover:hover{
   color: black;
   background: white;
 }
@@ -235,7 +235,7 @@ button:hover {
 /*section 2 styling featuring the upcoming meet up times and events for the movie club*/
 #section2 {
     background-color: #f7f4ed;
-    height: 400px;
+    height: 360px;
     width: 100%;
   }
   
@@ -258,4 +258,32 @@ button:hover {
     text-align: center;
     box-sizing: border-box;
     line-height: 45px;
+  }
+
+  footer {
+    background: #000;
+    height: 100px;
+    width: 100%;
+  }
+
+.social-networks {
+    text-align: center;
+  }
+
+.social-networks li{
+    display: inline-block;
+    line-height: 95px;
+    margin: 0 auto;
+    border: none;
+  }
+
+  
+.social-networks i {
+    color: white;
+    font-size: 200%;
+    padding: 0 40px 10px;
+  }
+
+.fa-brands:hover{
+    color:#e62e00;
   }
