@@ -73,47 +73,160 @@ nav ul li a {
 }
 
 /* media screen adaptation for nav bar css */
-
 @media (max-width: 1200px){
-    label#logo {
-      font-size: 30px;
-      padding-left: 20px;
-    }
-  
-  nav ul li a {
-    font-size: 15px;
+  label#logo {
+    font-size: 30px;
+    padding-left: 20px;
   }
-  }
-  
-  /* additional media screen adaptation for nav bar css */
-  @media (max-width: 880px){
-    .checkbtn {
-      display: block;
-    }
-    ul {
-      position: fixed;
-      width: 100%;
-      height: 65vh;
-      background: #e62e00;
-      top: 100px;
-      right: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-  nav ul li {
+
+nav ul li a {
+  font-size: 15px;
+}
+}
+
+/* additional media screen adaptation for nav bar css */
+@media (max-width: 880px){
+  .checkbtn {
     display: block;
-    margin: 50px 0;
-    line-height: 30px;
   }
-    nav ul li a {
-      font-size: 20px;
-    }
-  a:hover,a.active{
-    background: none;
-    color:#000000;
-    font-style: bold;
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 65vh;
+    background: #e62e00;
+    top: 100px;
+    right: -100%;
+    text-align: center;
+    transition: all .5s;
   }
-    #check:checked ~ ul{
-     right: 0;
-    }
+nav ul li {
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+  nav ul li a {
+    font-size: 20px;
   }
+a:hover,a.active{
+  background: none;
+  color:#000000;
+  font-style: bold;
+}
+  #check:checked ~ ul{
+   right: 0;
+  }
+}
+
+/* section css styling for background image */
+#section1 {
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/astronaught1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+
+/* row and two column styling including button and images */
+.row {
+  display: flex;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+
+.col h1, .col h2, .col h3, .col h4, .col h5, .col p {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+.col h1 {
+  font-size: 80px;
+}
+
+.col h3 {
+  font-size: 25px;
+}
+
+.col h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.col p {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.right-col {
+  padding: 180px 0px 100px 0px;
+}
+
+.left-col {
+  margin-left: 70px;
+}
+button {
+  width: 220px;
+  height: 50px;
+  color: #000;
+  font-size: 18px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  margin-top: 40px;
+  font-family:'Roboto Slab', serif;
+}
+
+button:hover {
+  font-size: 22px;
+  width: 50%;
+  height: 65px;
+  transition: 0.5s;
+}
+/*The 4 segments styling including back-up black background incase the images don't load*/
+.card {
+  width: 220px;
+  height: 235px;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+
+/* hover effect on card images */
+
+.card:hover {
+  background: rgba(255,255,255, 0.4);
+}
+
+/* card 1 2 3 4 css styling */
+
+.card1 {
+  background-image: url(../images/orange.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card2 {
+  background-image: url(../images/arch.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card3 {
+  background-image: url(../images/stars.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card4 {
+  background-image: url(../images/milky.jpg);
+  background-position: center;
+  background-size: cover;
+}
