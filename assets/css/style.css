@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&family=Roboto+Slab:wght@700&family=Staatliches&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+}
+/* navgiation bar css */
+nav {
+  background: #000;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+
+label#logo {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 250%;
+  line-height: 85px;
+  padding: 0 80px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 85px;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+/*hover effects on the navigation bar links*/
+
+.active, a:hover{
+  background: #e62e00;
+  transition: .5s;
+}
+
+.active:hover{
+  color: black;
+  background: white;
+}
+.checkbtn {
+  font-size: 30px;
+  color: rgba(245, 242, 235);
+  float: right;
+  line-height: 85px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
