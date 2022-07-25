@@ -49,9 +49,13 @@ nav ul li a {
 
 /*hover effects on the navigation bar links*/
 
+#current-page {
+  background-color: #e62e00;
+}
+
 .nav-hover:hover{
   background: #e62e00;
-  transition: .5s;
+/*  transition: .5s;*/
 }
 
 .contact-hover:hover{
