@@ -50,7 +50,7 @@ nav ul li a {
 /*hover effects on the navigation bar links*/
 
 #current-page {
-  background-color: #e62e00;
+  background: #e62e00;
 }
 
 .nav-hover:hover{
@@ -248,7 +248,6 @@ button:hover {
     text-align: center;
     padding: 20px 5px 5px 5px;
     font-weight: 100%;
-    text-decoration: underline;
 }
   .events {
     width: 100%;
@@ -274,35 +273,37 @@ button:hover {
 /* About Us Page */
 
 #about-page {
-    background-color: #f7f4ed;
-    height: 1000px;
+    background: #f7f4ed;
     width: 100%;
   }
   
-  .sub-pages {
-    margin: 60px 50px 50px 60px;
-    padding: 70px 30px;
-    
+  .about-header {
+    display: flex;
+    flex-direction: center;
+    width: 80%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/ufo.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
   }
-  .sub-pages h1, .sub-pages h3, .sub-pages h5, .sub-pages p{
+.about {
     font-family: 'Roboto Slab', serif;
-    color: #000;
+    color: black;
     text-align: center;
   }
   
-  .sub-pages h1 {
+  .about h1 {
     font-size: 80px;
-    text-decoration: underline;
   }
   
-  .sub-pages h3 {
+  .about h3 {
     font-size: 25px;
   }
   
-  .sub-pages h5 {
+  .about h5 {
     font-size: 20px;
   }
-  .sup-pages p {
+  .about p {
     line-height: 40px;
   }
 ol {
@@ -327,7 +328,7 @@ ol {
 }
 
 #movies-page {
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/mountains.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/spaceship-4828098.jpg) no-repeat center center;
   background-size: cover;
   background-color: black;
   width: 100%;
@@ -339,7 +340,32 @@ ol {
   margin: auto;
   padding: 100px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form {
+  border-radius: 10px;
+  background-color: black;
+  padding: 60px;
+  color: white;
+  display: flex;
+}
+
+input[type=text], input[type=email], select, textarea {
+  padding: 14px;
+  border: 2px solid;
+  border-radius: 6px;
+  width: 60%;
+  margin: 20px 20px;
+  justify-content: center;
+}
 footer {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
     background: #000;
     height: 100px;
     width: 100%;
