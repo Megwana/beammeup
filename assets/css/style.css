@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&family=Roboto+Slab:wght@700&family=Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&family=Roboto+Slab:wght@700&family=Staatliches&family=Ubuntu:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
 }
 /* navgiation bar css */
@@ -22,7 +21,7 @@ nav {
 
 label#logo {
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 250%;
   line-height: 85px;
   padding: 0 80px;
@@ -139,7 +138,7 @@ a:hover,a.active{
 }
 
 .col h1, .col h2, .col h3, .col h4, .col h5, .col p {
-  font-family: 'Roboto Slab', serif;
+  font-family: font-family: 'Ubuntu', sans-serif;
   color: white;
 }
 
@@ -180,10 +179,14 @@ button {
   border-radius: 30px;
   outline: none;
   margin-top: 40px;
-  font-family:'Roboto Slab', serif;
 }
 
-button:hover {
+.a-button {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Ubuntu', sans-serif;
+}
+.a-button:hover {
   font-size: 22px;
   width: 50%;
   height: 65px;
@@ -239,7 +242,7 @@ button:hover {
 
 /*section 2 styling featuring the upcoming meet up times and events for the movie club*/
 #section2 {
-    background-color: #f7f4ed;
+    background-color: #fff;
     height: 430px;
     width: 100%;
   }
@@ -254,7 +257,8 @@ button:hover {
     background: url(../images/astronaught2.jpg) no-repeat center;
     background-size: cover;
     overflow: hidden;
-    border: 30px solid #f7f4ed;
+    border: 30px solid #fff;
+    /*#f7f4ed*/
   }
   
   .events div {
@@ -264,10 +268,10 @@ button:hover {
     float: left;
     padding: 20px 20px 20px 30px;
     color: white;
-    border: 5px solid #f7f4ed;
+    border: 5px solid #fff;
     text-align: center;
     box-sizing: border-box;
-    line-height: 45px;
+    line-height: 32px;
   }
 
 /* About Us Page */
@@ -287,7 +291,7 @@ button:hover {
     text-align: center;
   }
 .about {
-    font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
     color: black;
     text-align: center;
   }
@@ -312,6 +316,20 @@ ol {
   i {
     margin-right: 10px;
   }
+
+  #movies-page {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/spaceship-moon.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 1200px;
+  }
+  
+  .movies-content {
+    color: white;
+    margin: auto;
+    padding: 100px;
+  }
   
 #contact-page {
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/satellite.jpg) no-repeat center center;
@@ -319,47 +337,54 @@ ol {
   background-color: black;
   width: 100%;
   height: 1000px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .contact-content {
-  color: white;
-  margin: auto;
-  padding: 100px;
-}
-
-#movies-page {
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/spaceship-moon.jpg) no-repeat center center;
-  background-size: cover;
-  background-color: black;
-  width: 100%;
-}
-
-.movies-content {
-  color: white;
-  margin: auto;
-  padding: 100px;
-}
-
-form {
   display: flex;
+  justify-content: center;
+}
+form {
   flex-direction: column;
+  background-color: #fff;
+  opacity: 0.9;
+  width: 50%;
+  border-radius: 10px;
+  margin: 150px;
+  padding: 20px;
+}
+
+form h2 {
+  text-align: center;
 }
 
 #contact-form {
   border-radius: 20px;
-  background-color: black;
-  padding: 60px;
+  padding: 100px;
   color: white;
   display: flex;
   justify-content: center;
 }
 
 input[type=text], input[type=email], select, textarea {
-  padding: 14px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
   border: 2px solid;
-  border-radius: 6px;
-  width: 50%;
-  margin: 20px 20px 20px 20px;
+  border-radius: 8px;
+  width: 85%;
+  margin: 12px;
+}
+
+.contact-button {
+background-color: #000;
+color: white;
+margin: 10px;
+border: 10px;
+}
+
+.contact-button:hover {
+  background-color: #e62e00;
 }
 footer {
   display: flex;
