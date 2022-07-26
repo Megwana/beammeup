@@ -138,7 +138,7 @@ a:hover,a.active{
 }
 
 .col h1, .col h2, .col h3, .col h4, .col h5, .col p {
-  font-family: font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
 }
 
@@ -320,23 +320,48 @@ ol {
   #movies-page {
     background: white;
     width: 100%;
-    height: 620px;
-    padding: 40px 0;
     text-align: center;
   }
   
   .movies-content {
     color: #000;
+    padding-top: 130px;
     margin: auto;
-    padding: 100px;
+    overflow: hidden;
   }
-.movies1 img{
-  width: 180px;
-  height: 100px;
-  border-radius: 40px;
+.movies1 img {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-  
+.border {
+  width: 200px;
+  height: 2px;
+  background-color: #000;
+  margin: 10px auto;
+}
+
+.movies-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movies-col {
+  max-width: 33.33%;
+}
+
+.movie-name {
+  padding: 30px;
+  background: #FAF9F6;
+}
+
+.stars {
+  margin: 2px;
+}
 #contact-page {
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/satellite.jpg) no-repeat center center;
   background-size: cover;
@@ -395,9 +420,9 @@ border: 10px;
 footer {
   display: flex;
   justify-content: center;
-    background: #000;
-    height: 100px;
-    width: 100%;
+  background: #000;
+  height: 100px;
+  max-width: 100%;
   }
 
 .social-networks li{
