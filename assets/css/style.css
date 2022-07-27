@@ -17,6 +17,7 @@ nav {
   height: 100px;
   width: 100%;
   position: fixed;
+  z-index: 9999;
 }
 
 label#logo {
@@ -284,6 +285,9 @@ button {
 .maps1 {
   padding-top: 10px;
   margin: 10px;
+}
+
+.maps1 iframe {
 }
 
 /* About Us Page */
