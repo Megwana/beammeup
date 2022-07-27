@@ -371,6 +371,11 @@ ol {
   overflow: hidden;
   font-family: 'Ubuntu', sans-serif;
   background-color: #e62e00;
+  text-align: left;
+}
+
+.review p {
+  padding: 10px;
 }
 
 .review__label {
@@ -416,13 +421,13 @@ ol {
 .review__input:checked ~ .review__label::after {
   transform: translateY(-50%) rotate(0.5turn);
 }
-l
+
 #contact-page {
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/satellite.jpg) no-repeat center center;
+  background: url(../images/satellite.jpg) no-repeat center center;
   background-size: cover;
   background-color: black;
   width: 100%;
-  min-height: fit-content;
+  height: 960px;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -473,6 +478,8 @@ border: 10px;
 .contact-button:hover {
   background-color: #e62e00;
 }
+
+
 footer {
   display: flex;
   justify-content: center;
