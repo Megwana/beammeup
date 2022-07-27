@@ -89,6 +89,10 @@ nav ul li a {
   font-size: 15px;
 }
 
+.events div {
+  width: 100%;
+  
+}
 }
 
 /* additional media screen adaptation for nav bar css */
@@ -185,6 +189,7 @@ button {
   border-radius: 30px;
   outline: none;
   margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
 .a-button {
@@ -212,15 +217,15 @@ button {
   background-color: black;
   background-position: center;
   background-size: cover;
-  box-shadow: 0 0 10px rgba(0,0,0,1.0);
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
 .card h5 {
-  padding: 14px;
+  padding: 10px;
 }
 
 .card p {
-  margin: 0 4px;
+  margin: 0 2px;
 }
 /* hover effect on card images */
 
@@ -250,7 +255,7 @@ button {
 }
 
 .card4 {
-  background-image: url(../images/milky.jpg);
+  background-image: url(../images/spaceship-4828098.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -299,6 +304,8 @@ button {
 .maps1 {
   padding-top: 10px;
   margin: 10px;
+  width: 90%;
+  height: 300px;
 }
 
 /* About Us Page */
@@ -360,7 +367,7 @@ ol {
   display: block;
   width: 500px;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
 
@@ -394,7 +401,7 @@ ol {
 }
 
 .review {
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
   border-radius: 4px;
   overflow: hidden;
   font-family: 'Ubuntu', sans-serif;
