@@ -204,7 +204,7 @@ button {
   height: 235px;
   display: inline-block;
   border-radius: 30px;
-  padding: 14px 20px
+  padding: 14px 20px;
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px 14px;
@@ -384,6 +384,7 @@ ol {
 .movie-name {
   padding: 30px;
   background: #FAF9F6;
+  border-radius: 6px;
 }
 
 .stars {
@@ -469,12 +470,16 @@ form {
   border: #000 solid 2px;
   margin: 150px;
   padding: 20px;
+  font-weight: 600;
 }
 
 form h2 {
   text-align: center;
 }
 
+form h3 {
+  font-weight: 500;
+}
 #contact-form {
   border-radius: 20px;
   padding: 100px;
@@ -492,6 +497,7 @@ input[type=text], input[type=email], select, textarea {
   border-radius: 8px;
   width: 85%;
   margin: 12px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .contact-button {
