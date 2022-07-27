@@ -92,7 +92,7 @@ nav ul li a {
   .checkbtn {
     display: block;
   }
-  ul {
+  nav ul {
     position: fixed;
     width: 100%;
     height: 65vh;
@@ -422,7 +422,7 @@ l
   background-size: cover;
   background-color: black;
   width: 100%;
-  height: 1000px;
+  min-height: fit-content;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -436,6 +436,7 @@ form {
   opacity: 0.9;
   width: 50%;
   border-radius: 10px;
+  border: #000 solid 2px;
   margin: 150px;
   padding: 20px;
 }
@@ -475,28 +476,35 @@ border: 10px;
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: relative;
   background: #000;
-  height: 100px;
-  max-width: 100%;
+  min-height: 100px;
+  width: 100%;
+  padding: 10px 40px;
+  flex-direction: column;
   }
 
+.social-networks {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
 .social-networks li{
-    display: flex;
-    align-items: center;
-    margin: 2%;
-    border: none;
+  list-style: none;
   }
   
 .social-networks i {
     color: white;
+    transition: 0.4s;
     font-size: 190%;
-    padding: 0 40px 5px;
+    padding: 10px;
+    margin: 0 30px;
   }
-footer h5 {
-  line-height: 80px;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
 
 .fa-brands:hover{
     color:#e62e00;
