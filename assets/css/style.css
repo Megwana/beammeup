@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&family=Roboto+Slab:wght@700&family=Staatliches&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Ubuntu:wght@300;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 900;
+  font-weight: 300;
 }
 /* navgiation bar css */
 nav {
@@ -22,10 +22,11 @@ nav {
 
 label#logo {
   color: white;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Bungee', cursive;
   font-size: 250%;
   line-height: 85px;
-  padding: 0 80px;
+  letter-spacing: 4px;
+  padding: 0 60px;
   font-weight: bold;
 }
 
@@ -42,7 +43,8 @@ nav ul li {
 nav ul li a {
   color: white;
   font-size: 20px;
-  padding: 7px 13px;
+  font-weight: 700;
+  padding: 8px 14px;
   border-radius: 10px;
   text-transform: uppercase;
 }
@@ -96,7 +98,7 @@ nav ul li a {
   nav ul {
     position: fixed;
     width: 100%;
-    height: 65vh;
+    height: 60vh;
     background: #e62e00;
     top: 100px;
     right: -100%;
@@ -140,11 +142,13 @@ a:hover,a.active{
 
 .col h1, .col h2, .col h3, .col h4, .col h5, .col p {
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
   color: white;
 }
 
 .col h1 {
   font-size: 80px;
+  font-weight: 800;
 }
 
 .col h3 {
@@ -186,6 +190,7 @@ button {
   text-decoration: none;
   color: #000;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
 .a-button:hover {
   font-size: 22px;
@@ -199,15 +204,22 @@ button {
   height: 235px;
   display: inline-block;
   border-radius: 30px;
-  padding: 15px 25px;
+  padding: 14px 20px
   box-sizing: border-box;
   cursor: pointer;
-  margin: 10px 15px;
+  margin: 10px 14px;
   background-color: black;
   background-position: center;
   background-size: cover;
 }
 
+.card h5 {
+  padding: 14px;
+}
+
+.card p {
+  margin: 0 4px;
+}
 /* hover effect on card images */
 
 .card:hover {
@@ -285,9 +297,6 @@ button {
 .maps1 {
   padding-top: 10px;
   margin: 10px;
-}
-
-.maps1 iframe {
 }
 
 /* About Us Page */
