@@ -82,11 +82,11 @@ nav ul li a {
 @media screen and (max-width: 1200px){
   label#logo {
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
 nav ul li a {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #events > div {
@@ -97,7 +97,12 @@ nav ul li a {
 }
 
 /* additional media screen adaptation for nav bar css */
-@media (max-width: 880px){
+@media screen and (max-width: 880px){
+  #section1 {
+    width: 40%;
+    height: 1300px;
+    margin: 0 auto;
+  }
   .checkbtn {
     display: block;
   }
@@ -127,7 +132,77 @@ a:hover,a.active{
   #check:checked ~ ul{
    right: 0;
   }
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
+.row h1 {
+  font-size: 60px;
+  margin-top: 200px;
+}
+
+.left-col {
+  justify-content: center;
+  align-content: center;
+}
+.left-col h3 {
+  font-size: 30px;
+}
+.right-col {
+  padding: 30px 0px 10px 130px
+}
+}
+@media screen and (max-width: 500px) {
+  #section1 {
+    width: 100%;
+    height: 1800px;
+    margin: 0 auto;
+  }
+  .right-col {
+    padding: 30px 0px 5px 40px;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 412px) {
+
+  label#logo {
+    font-size: 26px;
+    line-height: 85px;
+    letter-spacing: 2px;
+    padding: 6px;
+    font-weight: bold;
+  }
+  #intro {
+    font-size: 50px;
+  }
+
+ #intro-phrase {
+    font-size: 10px;
+  }
+  .left-col {
+    margin-left: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .right-col {
+    padding: 36px 0px 5px 40px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1570px) {
+  .col {
+    margin: 130px 0;
+  }
+  }
 
 /* section css styling for background image */
 #section1 {
@@ -313,44 +388,13 @@ button {
 #about-page {
     background: #f7f4ed;
     width: 100%;
+    min-height: 100vh;
   }
   
-  .about-header {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    border-radius: 10px;
+  .about-title {
     color: #000;
-    text-align: center;
     background-color: white;
-    height: 600px;
     font-family: 'Ubuntu', sans-serif;
-  }
-.about {
-  font-family: 'Ubuntu', sans-serif;
-    color: black;
-    text-align: center;
-  }
-  
-  .about h1 {
-    font-size: 80px;
-  }
-  
-  .about h3 {
-    font-size: 25px;
-  }
-  
-  .about h5 {
-    font-size: 20px;
-  }
-  .about p {
-    line-height: 40px;
-  }
-ol {
-    text-align: center;
-  }
-  i {
-    margin-right: 10px;
   }
 
   #movies-page {
