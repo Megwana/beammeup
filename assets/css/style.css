@@ -318,7 +318,7 @@ button {
   justify-content: center;
 }
 .movies-col {
-  max-width: 40%;
+  width: 700px;
   padding: 20px;
 }
 
@@ -604,16 +604,22 @@ a:hover,a.active{
     padding-left: 20px;
   }
 
-  .movies1 img {
-    display: block;
-    width: 300px;
-    height: auto;
-    border-radius: 20px;
+  .movies-col {
+    max-width: none;
   }
 
-  .movies-col {
-    max-width: 0%;
+  form {
+    width: 90%;
+    margin: 150px 0;
+    padding: 20px;
   }
+
+  input[type=text], input[type=email], select, textarea {
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0;
+}
 
   footer {
     padding: 0;
