@@ -256,8 +256,7 @@ button {
   text-align: center;
 }
 
-
-/* About Us Page */
+/* About Us Page CSS styling for the Beam Me Up Website */
 
 #about-page {
     background-color: #f7f4ed;
@@ -265,25 +264,62 @@ button {
     min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
   }
-  
+
   .about-title {
     color: #000;
-    width: 80%;
-    display: block;
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    padding-top: 130px;
     margin: auto;
-    padding-top: 100px;
+    overflow: hidden;
   }
-.about {
-  float: left;
-  width: 55%;
+
+.about h3 {
+  padding: 0 0 10px 0;
+  text-align: center;
 }
 
-.cinema img {
-    display: block;
-    float: right;
-    width: 300px;
-    height: 100px;
+.about p {
+  line-height: 24px;
 }
+
+.abt-img {
+  display: flex;
+  float: right;
+  margin: 0px;
+  padding: 10px 10px;
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: 1.2fr 0.8fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 4px 4px; 
+  grid-template-areas: 
+    "text founders"
+    "text cinema"
+    "text friends"; 
+}
+
+.text { grid-area: text; }
+.founders { grid-area: founders; }
+.cinema { grid-area: cinema; }
+.friends { grid-area: friends; }
+
+.about {
+  background-color: #FAF9F6;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px 10px;
+;
+}
+.abt-img>img {
+  object-fit: cover;
+  width: 100%
+}
+/* Movies Review Page CSS styling for the Beam Me up Website */
+
   #movies-page {
     background: white;
     width: 100%;
@@ -309,7 +345,8 @@ button {
   width: 200px;
   height: 2px;
   background-color: #000;
-  margin: 10px auto;
+  margin: 20px auto;
+
 }
 
 .movies-row {
@@ -388,6 +425,8 @@ button {
 .review__input:checked ~ .review__label::after {
   transform: translateY(-50%) rotate(0.5turn);
 }
+
+/* Contact Page CSS styling for the Beam Me Up website*/
 
 #contact-page {
   background: url(../images/satellite.jpg) no-repeat center center;
@@ -469,6 +508,8 @@ nav ul li a {
   padding: 0;
 }
 }
+
+/* Footer css styling including social media links and website disclosure*/
 
 footer {
   display: flex;
@@ -656,3 +697,5 @@ a:hover,a.active{
   }
 }
 */
+
+
