@@ -4,7 +4,7 @@ Beam Me Up is a website designed for visitors to find out about the Beam Me Up m
 
 The Website is responsive, which can allow visitors to view the site on a multitude of devices. 
 
-VIEW WEBSITE 
+VIEW WEBSITE MEDIA SCREEN PIC
 
 ## 1. User Experience & Project Goals 
 
@@ -56,12 +56,21 @@ The landing page includes a background image of an astronaught. The background i
 - The four card segments on the landing page will allow the user to have quick access to the most recent movies viewed by the club. 
 - Each segment provides a direct link to each individual month's more detailed review on the website's movie page.
 - The four card segments have a space-themed background to match the space-themed science-fiction theme of the movie club.
+- This section will be updated as these details change in order to keep members and potential new joiners up to date with the latest movies review each month.
 
 ![Four card segments] (LINK TO CARD SEGMENTS)
 
 -__Meet up event times__
 
-- The mee
+- The meet up times enable visitors to view precise dates, times and locations for when the movie club will be meeting. 
+- This section will be updated as these details change in order to keep members and potential new joiners up to date.
+
+-__The Footer__
+
+The footer bar features links to all the relevant social media sites that Beam Me Up has accounts for. In addition, the links open into a new tab to let the site user easy navigation and the ability to still browse the Beam Me Up website. 
+
+![Footer](LINK TO FOOTER)
+
 ## 3. Design
 
 ### Colour Schemes 
@@ -73,7 +82,23 @@ Google Fonts were used for the following fonts:
 - Bungee is used for the logo on the site. Bungee is a cursive font.
 - Ubuntu is used for the rest of the sites fonts. Ubuntu is a serif font.
 
-#### Imagery 
+### Accessibility 
+
+It is important to ensure that the website is user friendly.
+
+## Testing
+
+### Validator Testing
+
+### Bugs 
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
 
 All images used on the website were from the following websites where you can use the images for free: 
 
@@ -81,7 +106,3 @@ All images used on the website were from the following websites where you can us
 - Pixabay https://pixabay.com/
 
 I would loved to have used imagery from the movie's posters however, to avoid any copyright infringements and because the site is for educational purposes only; I decided to source the images from the websites listed above. 
-
-#### Accessibility 
-
-It is important to ensure that the website is user friendly 

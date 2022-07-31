@@ -154,7 +154,7 @@ button {
   font-size: 22px;
   width: 50%;
   height: 65px;
-  transition: 0.5s;
+  color: #000;
 }
 /*The 4 segments styling including back-up black background incase the images don't load*/
 .card {
@@ -664,9 +664,9 @@ nav ul li {
     color: #000;
   }
 
-a:hover,a.active{
+a:hover {
   background: none;
-  color: #fff;
+  color: #000;
   font-style: bold;
 }
   #check:checked ~ ul{
