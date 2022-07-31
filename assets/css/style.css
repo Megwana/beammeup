@@ -461,7 +461,7 @@ button {
   background-size: cover;
   background-color: black;
   width: 100%;
-  height: 960px;
+  height: auto;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -706,10 +706,18 @@ a:hover,a.active{
   border-radius: 20px;
   object-fit: cover;
 }
+
+form {
+  width: 70%;
+}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
+  form {
+    width: 80%;
+    margin: 120px 50px 20px 50px;
+  }
 }
 @media screen and (max-width: 600px) {
   #section1 {
@@ -768,6 +776,7 @@ a:hover,a.active{
   }
 
 }
+
 @media screen and (max-width: 400px) {
 
   label#logo {
@@ -800,6 +809,19 @@ a:hover,a.active{
     height: 200px;
   }
 }
+
+/* extra small devices such as the galaxy fold*/
+@media screen and (max-width: 300px) {
+  .card {
+    height: 200px;
+    padding: 8px 10px;
+    margin: 8px 0;
+  }
+  .right-col {
+    padding: 0;
+  }
+}
+
 
 
 
