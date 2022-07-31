@@ -59,7 +59,7 @@ nav ul li a {
   background: #e62e00;
 }
 
-.contact-hover:hover{
+.contact-hover:hover {
   color: black;
   background: white;
 }
@@ -534,6 +534,7 @@ border: 10px;
 .contact-button:hover {
   background-color: #e62e00;
 }
+
 @media screen and (min-width: 1200px) {
   .abt-img > img {
     object-fit: cover;
@@ -677,9 +678,10 @@ a:hover,a.active{
   }
 
 .contact-hover:hover{
-    color: black;
-    background: #e62e00;
+    color: #fff;
+    background-color: #000;
   }
+
 .row {
   display: flex;
   flex-direction: column;

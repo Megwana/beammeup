@@ -6,21 +6,19 @@ The Website is responsive, which can allow visitors to view the site on a multit
 
 VIEW WEBSITE 
 
-## Table of Contents 
+## 1. User Experience & Project Goals 
 
-1. User Experience & Project Goals 
-
-First-time visitors
+### First-time visitors
 
 - For first-time visitors, I want them to understand what the website is about and who it is targeted too. 
 - In addition, I want users to find information about the movie club, such as meet times, general information about the club so they can decide whether it something they would want to be a part of. 
 
-Movie Club members 
+### Movie Club members 
 
 - I want the existing members to be able to view our events and meet up details with ease. 
 - Furthermore, I would like existing members to view our conjoined reviews of films as a club and still be able to contact formally through our club site, should they have any questions. 
 
-All visitors
+### All visitors
 
 - I want visitors to find the site easy to navigate. 
 - I want the home page to invite them into sci-fi notalgia but with still a modern feel. 
@@ -28,18 +26,54 @@ All visitors
 - I want visitors to see images of on the about page of our club meeting for movie watching to highlight the social aspect of the club. 
 - I want visitors to have easy access to the location of our meet ups via google maps on the website, so they can easily attend meet ups. 
 
-2. Design 
+## 2. Features 
 
-Colour Schemes 
+### Current Features
 
-Typography 
+-__Navigation Bar__
 
-Google Fonts was used for the following fonts: 
+- On all three pages, there is a navigation bar that is full responsive. The navigation bar includes a the movie club's logo 'Beam Me Up', the Home Page, the About page, the movie review page and the contact page. I have created each the same on each page for ease of navigation. However, there is a difference on the contact page. When you hover over the link is highlights #fff instead of #orange like the others. This is because contacting about joining the club and/or any queries are vital. Therefore, I wanted it have a different identifier to the others to stick out from the other links in on the navigation bar. 
+- The navigation bar will allow the user to easily navigate from each page (and across all devices) without having to regress back to the previous page. 
+
+POTENTIALLY INSERT LOGO SCREEN SHOT
+
+-__The landing page background image__
+
+The landing page includes a background image of an astronaught. The background image is meant to give an eye-catching feel of space-themes.  
+
+![Landing Page] (LINK TO BACKGROUND IMAGE)
+
+-__The landing page welcome introduction__
+
+- There is a text overlay on the background image to the left of the landing page to highlight the name of the movie club and a brief description of what the club is; so an unknown vistor can immediately gauge the purpose of the site.
+
+-__Contact Button__
+
+- A button with the words 'join our club' features below the welcome introduction to encourage easy access to the contact page for visitors looking to join. 
+
+-__Movie Review Cards__
+
+- The four card segments on the landing page will allow the user to have quick access to the most recent movies viewed by the club. 
+- Each segment provides a direct link to each individual month's more detailed review on the website's movie page.
+- The four card segments have a space-themed background to match the space-themed science-fiction theme of the movie club.
+
+![Four card segments] (LINK TO CARD SEGMENTS)
+
+-__Meet up event times__
+
+- The mee
+## 3. Design
+
+### Colour Schemes 
+
+### Typography 
+
+Google Fonts were used for the following fonts: 
 
 - Bungee is used for the logo on the site. Bungee is a cursive font.
 - Ubuntu is used for the rest of the sites fonts. Ubuntu is a serif font.
 
-Imagery 
+#### Imagery 
 
 All images used on the website were from the following websites where you can use the images for free: 
 
@@ -48,6 +82,6 @@ All images used on the website were from the following websites where you can us
 
 I would loved to have used imagery from the movie's posters however, to avoid any copyright infringements and because the site is for educational purposes only; I decided to source the images from the websites listed above. 
 
-Accessibility 
+#### Accessibility 
 
 It is important to ensure that the website is user friendly 
