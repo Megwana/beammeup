@@ -372,7 +372,6 @@ button {
 .review__content iframe {
   width: 600px;
   height: 300px;
-  box-align: middle;
 }
 
 .border {
@@ -767,6 +766,13 @@ form {
   .movies1 img {
     width: 350px;
     height: 220px;
+  }
+
+  .review__content iframe {
+    width: 400px;
+    height: 180px;
+    display: flex;
+    margin: auto;
   }
 
   form {
