@@ -272,10 +272,17 @@ button {
     font-size: 26px;
     color: #000;
     padding-top: 130px;
-    margin: auto;
+    margin: 0 0 40px;
     overflow: hidden;
   }
-
+/*
+.abt-border {
+    width: 250px;
+    height: 2px;
+    background-color: #000;
+    margin: 20px auto;
+}
+*/
 .about h3 {
   padding: 0 0 10px 0;
   text-align: center;
@@ -360,6 +367,10 @@ button {
     margin: auto;
     overflow: hidden;
   }
+.movies-content h1{
+  font-size: 52px;
+  margin: 0 0 30px;
+}
 .movies1 img {
   display: block;
   width: 500px;
@@ -373,15 +384,15 @@ button {
   width: 600px;
   height: 300px;
 }
-
+/*
 .border {
-  width: 200px;
+  width: 350px;
   height: 2px;
   background-color: #000;
   margin: 20px auto;
 
 }
-
+*/
 .movies-row {
   display: flex;
   flex-wrap: wrap;
@@ -486,8 +497,9 @@ form {
   font-weight: 600;
 }
 
-form h2 {
+form h1 {
   text-align: center;
+  font-size: 52px;
 }
 
 form h3 {
