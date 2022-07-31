@@ -79,7 +79,7 @@ nav ul li a {
 
 /* section css styling for background image */
 #section1 {
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/landing-page.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/home-page/landing-page.jpg) no-repeat center center;
   background-size: cover;
   background-color: #000000;
   width: 100%;
@@ -188,26 +188,26 @@ button {
 /* card 1 2 3 4 css styling */
 
 .card1 {
-  background-image: url(../images/orange.jpg);
+  background-image: url(../images/home-page/orange.jpg);
   background-position: center;
   background-size: cover;
 
 }
 
 .card2 {
-  background-image: url(../images/arch.jpg);
+  background-image: url(../images/home-page/arch.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .card3 {
-  background-image: url(../images/stars.jpg);
+  background-image: url(../images/home-page/stars.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .card4 {
-  background-image: url(../images/abduction.jpg);
+  background-image: url(../images/home-page/abduction.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -220,7 +220,7 @@ button {
   margin: 20px;
 }
 #events {
-    background: url('../images/events-background.jpg');
+    background: url('../images/home-page/events-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -410,6 +410,8 @@ button {
   padding: 10px;
 }
 
+/* review label styling for drop down box */
+
 .review__label {
   padding: 14px 20px;
   display: block;
@@ -457,7 +459,7 @@ button {
 /* Contact Page CSS styling for the Beam Me Up website*/
 
 #contact-page {
-  background: url(../images/contact-background.jpg) no-repeat center center;
+  background: url(../images/contact-page/contact-background.jpg) no-repeat center center;
   background-size: cover;
   background-color: #000000;
   width: 100%;
