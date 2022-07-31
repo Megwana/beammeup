@@ -130,6 +130,7 @@ nav ul li a {
   margin-left: 70px;
   display: block;
 }
+
 button {
   width: 220px;
   height: 50px;
@@ -291,6 +292,33 @@ button {
   padding: 10px 10px;
 }
 
+.about button {
+  width: 120px;
+  height: 30px;
+  color: #000;
+  font-size: 12px;
+  padding: 0;
+  background: none;
+  border: 0;
+  margin: 0;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: none;
+}
+.b-button {
+  font-size: 16px;
+  width: 50px;
+  height: 20px;
+  color: #000;
+  background: #f7f4ed;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 20px;
+  outline: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  }
+
 .grid-container {
   display: grid; 
   grid-template-columns: 1.2fr 0.8fr; 
@@ -316,7 +344,8 @@ button {
 }
 .abt-img>img {
   object-fit: cover;
-  width: 100%
+  width: 100%;
+  border-radius: 20px;
 }
 /* Movies Review Page CSS styling for the Beam Me up Website */
 
@@ -362,7 +391,7 @@ button {
 .movie-name {
   padding: 30px;
   background: #FAF9F6;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 
 .stars {
