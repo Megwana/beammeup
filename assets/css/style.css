@@ -313,7 +313,7 @@ button {
   background: #f7f4ed;
   border: 1px solid black;
   padding: 6px;
-  border-radius: 20px;
+  border-radius: 10px;
   outline: none;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bolder;
@@ -343,9 +343,8 @@ button {
 ;
 }
 .abt-img>img {
-  object-fit: cover;
+  object-fit:cover;
   width: 100%;
-  border-radius: 20px;
 }
 /* Movies Review Page CSS styling for the Beam Me up Website */
 
@@ -519,7 +518,23 @@ border: 10px;
 .contact-button:hover {
   background-color: #e62e00;
 }
-
+@media screen and (min-width: 1200px) {
+  .abt-img > img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 4px 4px; 
+    grid-template-areas: 
+      "text founders"
+      "text cinema"
+      "text friends"; 
+  }
+}
 /* media screen adaptation for nav bar css */
 @media screen and (max-width: 1200px){
   label#logo {
@@ -535,6 +550,25 @@ nav ul li a {
   min-width: 100%;
   clear: both;
   padding: 0;
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 0.4fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "text"
+    "text"
+    "founders"
+    "cinema"
+    "friends"; 
+}
+.abt-img > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
 }
 }
 
@@ -645,6 +679,37 @@ a:hover,a.active{
   padding: 8px 10px;
   margin: 10px 8px;
 }
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: 100%; 
+  grid-template-rows: 1fr 0.8fr 0.2fr 0.2fr 0.2fr; 
+  gap: 4px 4px; 
+  grid-template-areas: 
+    "text"
+    "text"
+    "founders"
+    "cinema"
+    "friends"; 
+}
+.abt-img {
+  margin: 0px;
+  padding: 10px 10px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.abt-img > img {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
 }
 @media screen and (max-width: 600px) {
   #section1 {
@@ -674,6 +739,13 @@ a:hover,a.active{
     padding-left: 20px;
   }
 
+  .abt-img > img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
   .movies-col {
     max-width: none;
   }
@@ -696,13 +768,13 @@ a:hover,a.active{
   }
 
 }
-/*@media screen and (max-width: 412px) {
+@media screen and (max-width: 400px) {
 
   label#logo {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 85px;
     letter-spacing: 2px;
-    padding: 6px;
+    padding: 0 0 0 6px;
     font-weight: bold;
   }
   #intro {
@@ -724,7 +796,10 @@ a:hover,a.active{
     justify-content: center;
     align-items: center;
   }
+  .abt-img > img {
+    height: 200px;
+  }
 }
-*/
+
 
 
