@@ -4,7 +4,7 @@ Beam Me Up is a website designed for visitors to find out about the Beam Me Up m
 
 The Website is responsive, which can allow visitors to view the site on a multitude of devices. 
 
-VIEW WEBSITE MEDIA SCREEN PIC
+![View Beam Me Up Website on all devices](assets/images/read.me.images/media-mockup.png)
 
 ## 1. User Experience & Project Goals 
 
@@ -58,7 +58,9 @@ The landing page includes a background image of an astronaught. The background i
 - The four card segments have a space-themed background to match the space-themed science-fiction theme of the movie club.
 - This section will be updated as these details change in order to keep members and potential new joiners up to date with the latest movies review each month.
 
-![Four card segments] (LINK TO CARD SEGMENTS)
+![View Beam Me Up Website on a range of devices](assets/images/media-mockup.png)
+
+[View Beam Me Up Movie Club on Github Pages] (https://megwana.github.io/beammeupm1/)
 
 -__Meet up event times__
 
@@ -75,6 +77,8 @@ The footer bar features links to all the relevant social media sites that Beam M
 
 ### Colour Schemes 
 
+![Beam Me Up Website's Colour Pallette](assets/images/read.me.images/color-pallette.png)
+
 ### Typography 
 
 Google Fonts were used for the following fonts: 
@@ -84,7 +88,24 @@ Google Fonts were used for the following fonts:
 
 ### Accessibility 
 
-It is important to ensure that the website is user friendly.
+It is important to ensure that the website is user friendly. I have fufilled this by the following actions:
+
+- I have used semantic HTML.
+- Establishing adequate colour contrast on the website overall.
+- I have used alt and title attributes on images throughout the website.
+- TO BE CONTINUED REGARDING STARS AND ICONS READABLE.
+
+## Technologies Applied
+
+### Languages Utilised 
+
+To create this website, I have used two languages, HTML and CSS.
+
+### Other Technologies
+
+- Google Fonts: Imported for the fonts used.
+- Font Awesome: Used for all iconography.
+- Google Development Tools: Used to test/ troubleshoot any issues and find solutions. In addition, to review the websites responsiveness on different device dimensions.
 
 ## Testing
 

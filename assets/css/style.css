@@ -21,7 +21,7 @@ nav {
 }
 
 label#logo {
-  color: white;
+  color: #ffffff;;
   font-family: 'Bungee', cursive;
   font-size: 250%;
   line-height: 85px;
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 700;
   padding: 8px 14px;
@@ -60,8 +60,8 @@ nav ul li a {
 }
 
 .contact-hover:hover {
-  color: black;
-  background: white;
+  color: #000000;
+  background: #ffffff;
 }
 .checkbtn {
   font-size: 30px;
@@ -81,7 +81,7 @@ nav ul li a {
 #section1 {
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/landing-page.jpg) no-repeat center center;
   background-size: cover;
-  background-color: black;
+  background-color: #000000;
   width: 100%;
 }
 
@@ -97,7 +97,7 @@ nav ul li a {
 .col h1, .col h2, .col h3, .col h4, .col h5, .col p {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
-  color: white;
+  color: #ffffff;
 }
 
 .col h1 {
@@ -133,10 +133,10 @@ nav ul li a {
 button {
   width: 220px;
   height: 50px;
-  color: #000;
+  color: #000000;
   font-size: 18px;
   padding: 12px 0;
-  background: #fff;
+  background: #ffffff;
   border: 0;
   border-radius: 30px;
   outline: none;
@@ -146,7 +146,7 @@ button {
 
 .a-button {
   text-decoration: none;
-  color: #000;
+  color: #000000;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
 }
@@ -154,7 +154,7 @@ button {
   font-size: 22px;
   width: 50%;
   height: 65px;
-  color: #000;
+  color: #000000;
 }
 /*The 4 segments styling including back-up black background incase the images don't load*/
 .card {
@@ -166,7 +166,7 @@ button {
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px 14px;
-  background-color: black;
+  background-color: #000000;
   background-position: center;
   background-size: cover;
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
@@ -229,14 +229,14 @@ button {
 }
 
 #events div {
-  color: #fafafa;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, .4);
   width: 20%;
   height: 220px;
   float: left;
   padding: 20px 0 0 10px;
   text-align: center;
-  border: 4px solid white;
+  border: 4px solid #ffffff;
   box-sizing: border-box;
 }
 
@@ -266,22 +266,15 @@ button {
   }
 
   .about-title {
-    color: #000;
+    color: #000000;
     text-align: center;
     font-size: 26px;
-    color: #000;
+    color: #000000;
     padding-top: 130px;
     margin: 0 0 40px;
     overflow: hidden;
   }
-/*
-.abt-border {
-    width: 250px;
-    height: 2px;
-    background-color: #000;
-    margin: 20px auto;
-}
-*/
+
 .about h3 {
   padding: 0 0 10px 0;
   text-align: center;
@@ -301,7 +294,7 @@ button {
 .about button {
   width: 120px;
   height: 30px;
-  color: #000;
+  color: #000000;
   font-size: 12px;
   padding: 0;
   background: none;
@@ -315,9 +308,9 @@ button {
   font-size: 16px;
   width: 50px;
   height: 20px;
-  color: #000;
-  background: #f7f4ed;
-  border: 1px solid black;
+  color: #000000;
+  background: #FAF9F6;
+  border: 1px solid #000000;
   padding: 6px;
   border-radius: 10px;
   outline: none;
@@ -355,13 +348,13 @@ button {
 /* Movies Review Page CSS styling for the Beam Me up Website */
 
   #movies-page {
-    background: white;
+    background: #ffffff;
     width: 100%;
     text-align: center;
   }
   
   .movies-content {
-    color: #000;
+    color: #000000;
     padding-top: 130px;
     margin: auto;
     overflow: hidden;
@@ -383,15 +376,7 @@ button {
   width: 600px;
   height: 300px;
 }
-/*
-.border {
-  width: 350px;
-  height: 2px;
-  background-color: #000;
-  margin: 20px auto;
 
-}
-*/
 .movies-row {
   display: flex;
   flex-wrap: wrap;
@@ -474,7 +459,7 @@ button {
 #contact-page {
   background: url(../images/contact-background.jpg) no-repeat center center;
   background-size: cover;
-  background-color: black;
+  background-color: #000000;
   width: 100%;
   height: auto;
   font-family: 'Ubuntu', sans-serif;
@@ -486,7 +471,7 @@ button {
 }
 form {
   flex-direction: column;
-  background-color: #fff;
+  background-color: #ffffff;
   opacity: 0.9;
   width: 50%;
   border-radius: 10px;
@@ -507,7 +492,7 @@ form h3 {
 #contact-form {
   border-radius: 20px;
   padding: 100px;
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
 }
@@ -525,8 +510,8 @@ input[type=text], input[type=email], select, textarea {
 }
 
 .contact-button {
-background-color: #000;
-color: white;
+background-color: #000000;
+color: #ffffff;
 margin: 10px;
 border: 10px;
 }
@@ -616,7 +601,7 @@ footer {
   }
   
 .social-networks i {
-    color: white;
+    color: #ffffff;
     transition: 0.4s;
     font-size: 190%;
     padding: 10px;
@@ -628,7 +613,7 @@ footer {
   }
 
 footer > h5 {
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -647,8 +632,8 @@ footer > h5 {
     position: fixed;
     width: 100%;
     height: 60vh;
-    color: #000;
-    background: #FFF;
+    color: #000000;
+    background: #ffffff;
     top: 100px;
     right: -100%;
     text-align: center;
@@ -661,12 +646,12 @@ nav ul li {
 }
   nav ul li a {
     font-size: 20px;
-    color: #000;
+    color: #000000;
   }
 
 a:hover {
   background: none;
-  color: #000;
+  color: #000000;
   font-style: bold;
 }
   #check:checked ~ ul{
@@ -678,8 +663,8 @@ a:hover {
   }
 
 .contact-hover:hover{
-    color: #fff;
-    background-color: #000;
+    color: #ffffff;
+    background-color: #000000;
   }
 
 .row {
