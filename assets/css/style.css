@@ -79,7 +79,7 @@ nav ul li a {
 
 /* section css styling for background image */
 #section1 {
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/astronaught1.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/landing-page.jpg) no-repeat center center;
   background-size: cover;
   background-color: black;
   width: 100%;
@@ -207,7 +207,7 @@ button {
 }
 
 .card4 {
-  background-image: url(../images/spaceship-4828098.jpg);
+  background-image: url(../images/abduction.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -220,7 +220,7 @@ button {
   margin: 20px;
 }
 #events {
-    background: url('../images/astronaught2.jpg');
+    background: url('../images/events-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -472,7 +472,7 @@ button {
 /* Contact Page CSS styling for the Beam Me Up website*/
 
 #contact-page {
-  background: url(../images/satellite.jpg) no-repeat center center;
+  background: url(../images/contact-background.jpg) no-repeat center center;
   background-size: cover;
   background-color: black;
   width: 100%;
