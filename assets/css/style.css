@@ -57,7 +57,6 @@ nav ul li a {
 
 .nav-hover:hover{
   background: #e62e00;
-/*  transition: .5s;*/
 }
 
 .contact-hover:hover{
@@ -431,11 +430,11 @@ button {
   display: block;
   cursor: pointer;
   position: relative;
-  transition: background 0.1s;
+  transition: background 0.2s;
 }
 
 .review__label:hover {
-  background: rgba(230, 46, 0.6);
+  background: rgba(0, 0, 0.5);
 }
 
 .review__label::after {
@@ -647,7 +646,8 @@ footer > h5 {
     position: fixed;
     width: 100%;
     height: 60vh;
-    background: #e62e00;
+    color: #000;
+    background: #FFF;
     top: 100px;
     right: -100%;
     text-align: center;
@@ -660,16 +660,26 @@ nav ul li {
 }
   nav ul li a {
     font-size: 20px;
+    color: #000;
   }
+
 a:hover,a.active{
   background: none;
-  color:#000000;
+  color: #fff;
   font-style: bold;
 }
   #check:checked ~ ul{
    right: 0;
   }
 
+#current-page {
+    background: #e62e00;
+  }
+
+.contact-hover:hover{
+    color: black;
+    background: #e62e00;
+  }
 .row {
   display: flex;
   flex-direction: column;
