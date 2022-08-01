@@ -94,13 +94,18 @@ nav ul li a {
   flex-basis: 50%;
 }
 
-.col h1, .col h2, .col h3, .col h4, .col h5, .col p {
+.col h1, .col h2, .col h2, .col h3, .col h4, .col h5, .col p {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
   color: #ffffff;
 }
 
 .col h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.col h2 {
   font-size: 80px;
   font-weight: 800;
 }
@@ -144,17 +149,18 @@ button {
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-.a-button {
+.join-button {
   text-decoration: none;
   color: #000000;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
 }
-.a-button:hover {
+.join-button:hover {
   font-size: 22px;
   width: 50%;
   height: 65px;
   color: #000000;
+  transition: 0.8s;
 }
 /*The 4 segments styling including back-up black background incase the images don't load*/
 .card {
@@ -214,7 +220,7 @@ button {
 
 /*section 2 styling featuring the upcoming meet up times and events for the movie club*/
 
-.eventsh1 {
+.events-h2 {
   text-align: center;
   font-size: 14px;
   margin: 20px;
@@ -251,7 +257,14 @@ button {
   margin: 10px;
 }
 
-.maps1 h1 {
+.maps1 iframe {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.maps1 h2 {
   font-size: 28px;
   text-align: center;
 }
@@ -814,7 +827,8 @@ form {
     padding: 0 0 0 6px;
     font-weight: bold;
   }
-  #intro {
+
+  #intro h2 {
     font-size: 50px;
   }
 

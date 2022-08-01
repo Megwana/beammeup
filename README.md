@@ -79,7 +79,7 @@ The footer bar features links to all the relevant social media sites that Beam M
 
 The reason I have chosen this colour scheme for my website is:
 
-I wanted there to be black and white as reoccuring colours to reflect the night sky. The more cream colour was chosen to bring a link between the two and reflect the off-white nature of the moon. The fourth colour I wanted to be rather bright because all my other colours are quite neutral. The redish Orange, is inspired by the colour of the sun and is used to give a pop of colour and highlight parts of the website. 
+I wanted there to be black and white as reoccuring colours to reflect the night sky. The more cream colour was chosen to bring a link between the two and reflect the off-white nature of the moon. The fourth colour I wanted to be rather bright because all my other colours are quite neutral. The Redish Orange, is inspired by the colour of the sun and is used to give a pop of colour and highlight parts of the website. 
 
 ![Beam Me Up Website's Colour Pallette](assets/images/read.me.images/color-pallette.png)
 
@@ -119,11 +119,18 @@ To create this website, I have used two languages, HTML and CSS.
 
 To test my code, I used W3C Validator for both HTML and CSS.
 
+* [Index Page HTML](image of HTML Passed)
+* [About Page HTML](image of HTML Passed)
+* [Movies Page HTML](image of HTML Passed)
+* [Contact Page HTML](image of HTML Passed)
+* [Style.css CSS](image of CSS Passed)
+
 ### Bugs 
 
-1. 
+1. I was warned it was not good practice to have the left column as a h1 tag and should change this to a h2.
 
-2. Despite the navbar being fixed, when on the contact page the form would overlap and cover the navabar when scrolling. This would prevent users from being able to easily access the menu at all times. They would have to scroll all the way to the top on just the contact page which does not fit flush with the rest of the website, that can access the fixed navbar at all times when scrolling. While reading on W3Schools (https://www.w3schools.com/cssref/pr_pos_z-index.asp) I was reminded about z-index. Therefore, to resolve the issued, I set the navbar to z-index 999 to guarantee it would always be stacked in front of other elements. 
+2. I was warned it was not good practice to have an anchor tag inside a button. Therefore, instead I found an alternative on W3 Docs (https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html), which meant I could add the link using 'onclick' within the button tag.
+. Despite the navbar being fixed, when on the contact page the form would overlap and cover the navabar when scrolling. This would prevent users from being able to easily access the menu at all times. They would have to scroll all the way to the top on just the contact page which does not fit flush with the rest of the website, that can access the fixed navbar at all times when scrolling. While reading on W3Schools (https://www.w3schools.com/cssref/pr_pos_z-index.asp) I was reminded about z-index. Therefore, to resolve the issued, I set the navbar to z-index 999 to guarantee it would always be stacked in front of other elements. 
 
 ## Deployment
 
