@@ -106,6 +106,8 @@ To create this website, I have used two languages, HTML and CSS.
 - Google Fonts: Imported for the fonts used.
 - Font Awesome: Used for all iconography.
 - Google Development Tools: Used to test/ troubleshoot any issues and find solutions. In addition, to review the websites responsiveness on different device dimensions.
+- Github: Used to save and store all the files for Beam Me Up. 
+- Am I Responsive: To display the website on a variet of devices.
 
 ## Testing
 
@@ -116,6 +118,24 @@ To create this website, I have used two languages, HTML and CSS.
 ## Deployment
 
 ## Credits
+
+### Code Used
+
+- 'Easy Tutorials' Youtube Channel: This inspired the layout for my home page. However, I changed elements to suit my preferences and the website.
+https://www.youtube.com/watch?v=Oa9LTDR9ugU
+
+- 'Coding Nepal' Youtube Channel: This inspired the function of the navigation bar when used on devices with a max-width of 992px. 
+https://www.youtube.com/watch?v=oLgtucwjVII
+
+### Thank You
+
+Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state.
+
+Thank you Ashkat Garg for the recommendation of the following technologies:
+
+- TinyPNG - https://tinypng.com/
+- Multi Device Website Generator - http://techsini.com/multi-mockup/index.php
+- Flexbox Froggy - https://flexboxfroggy.com/
 
 ### Content
 
