@@ -113,7 +113,13 @@ To create this website, I have used two languages, HTML and CSS.
 
 ### Validator Testing
 
+To test my code, I used W3C Validator for both HTML and CSS.
+
 ### Bugs 
+
+1. 
+
+2. Despite the navbar being fixed, when on the contact page the form would overlap and cover the navabar when scrolling. This would prevent users from being able to easily access the menu at all times. They would have to scroll all the way to the top on just the contact page which does not fit flush with the rest of the website, that can access the fixed navbar at all times when scrolling. While reading on W3Schools (https://www.w3schools.com/cssref/pr_pos_z-index.asp) I was reminded about z-index. Therefore, to resolve the issued, I set the navbar to z-index 999 to guarantee it would always be stacked in front of other elements. 
 
 ## Deployment
 
@@ -126,6 +132,9 @@ https://www.youtube.com/watch?v=Oa9LTDR9ugU
 
 - 'Coding Nepal' Youtube Channel: This inspired the function of the navigation bar when used on devices with a max-width of 992px. 
 https://www.youtube.com/watch?v=oLgtucwjVII
+
+- Dom from 'dcode' Youtube Channel: His code for creating an Accordian was how I created my drop down box on the movies review page. I changed parts to suit my website but I directly used the triangle image he has for the drop down symbol.
+https://codepen.io/dcode-software/pen/oNjXqzg
 
 ### Thank You
 
