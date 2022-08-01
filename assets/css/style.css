@@ -194,7 +194,7 @@ button {
 /* card 1 2 3 4 css styling */
 
 .card1 {
-  background-image: url(../images/home-page/card1-orange.jpg);
+  background-image: url(../images/home-page/card1-orange.webp);
   background-position: center;
   background-size: cover;
 
@@ -207,13 +207,13 @@ button {
 }
 
 .card3 {
-  background-image: url(../images/home-page/card3-stars.jpg);
+  background-image: url(../images/home-page/card3-stars.webp);
   background-position: center;
   background-size: cover;
 }
 
 .card4 {
-  background-image: url(../images/home-page/card4-ufo.jpg);
+  background-image: url(../images/home-page/card4-ufo.webp);
   background-position: center;
   background-size: cover;
 }
@@ -226,7 +226,7 @@ button {
   margin: 20px;
 }
 #events {
-    background: url('../images/home-page/events-bkgrd.jpg');
+    background: url('../images/home-page/events-bkgrd.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
