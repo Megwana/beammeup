@@ -1,12 +1,14 @@
 # Beam Me Up Website 
 
-Beam Me Up is a website designed for visitors to find out about the Beam Me Up movie club. As a movie club they meet to watch space-themed Sci Fi movies locally in Brighton. 
+Beam Me Up is a website designed for visitors to find out about the 'Beam Me Up' movie club. As a movie club, they meet once a month to watch space-themed Sci Fi movies locally in Brighton. They then discuss the movie after watching it and post short reviews giving their opinion on the movie. The reviews are not in depth as it is a recreational club whom enjoy watching this genre as a casual hobby. 
 
 The Website is responsive, which can allow visitors to view the site on a multitude of devices. 
 
-This website was created for educational purposed only.
+This website was created for educational purposed only and is a fictional concept.
 
 ![View Beam Me Up Website on all devices](assets/images/read.me.images/media-mockup.png)
+
+![View the live site here](http)
 
 ## 1. User Experience & Project Goals 
 
@@ -38,13 +40,19 @@ This website was created for educational purposed only.
 - On all three pages, there is a navigation bar that is full responsive. The navigation bar includes a the movie club's logo 'Beam Me Up', the Home Page, the About page, the movie review page and the contact page. I have created each the same on each page for ease of navigation. However, there is a difference on the contact page. When you hover over the link is highlights #fff instead of #orange like the others. This is because contacting about joining the club and/or any queries are vital. Therefore, I wanted it have a different identifier to the others to stick out from the other links in on the navigation bar. 
 - The navigation bar will allow the user to easily navigate from each page (and across all devices) without having to regress back to the previous page. 
 
-POTENTIALLY INSERT LOGO SCREEN SHOT
+Desktop view:
+
+![View Beam Me Up Navigaton bar in desktop mode](assets/images/read.me.images/navbar-full-screen.png)
+
+Smaller devices below:
+
+![View Beam Me Up Navigaton bar in smaller screen mode](assets/images/read.me.images/mobile-navbar.png)
 
 -__The landing page background image__
 
 The landing page includes a background image of an astronaught. The background image is meant to give an eye-catching feel of space-themes.  
 
-![Landing Page] (LINK TO BACKGROUND IMAGE)
+![Landing Page](assets/images/read.me.images/home-background.png)
 
 -__The landing page welcome introduction__
 
@@ -54,6 +62,8 @@ The landing page includes a background image of an astronaught. The background i
 
 - A button with the words 'join our club' features below the welcome introduction to encourage easy access to the contact page for visitors looking to join. 
 
+![Join Our Club Button](assets/images/read.me.images/welcome-left.col.png)
+
 -__Movie Review Cards__
 
 - The four card segments on the landing page will allow the user to have quick access to the most recent movies viewed by the club. 
@@ -61,7 +71,7 @@ The landing page includes a background image of an astronaught. The background i
 - The four card segments have a space-themed background to match the space-themed science-fiction theme of the movie club.
 - This section will be updated as these details change in order to keep members and potential new joiners up to date with the latest movies review each month.
 
-![View Beam Me Up Website on a range of devices](assets/images/media-mockup.png)
+![Review cards](assets/images/read.me.images/cards-right.col.png)
 
 [View Beam Me Up Movie Club on Github Pages] (https://megwana.github.io/beammeupm1/)
 
@@ -70,11 +80,13 @@ The landing page includes a background image of an astronaught. The background i
 - The meet up times enable visitors to view precise dates, times and locations for when the movie club will be meeting. 
 - This section will be updated as these details change in order to keep members and potential new joiners up to date.
 
+![Event times](assets/images/read.me.images/event-times.png)
+
 -__The Footer__
 
 The footer bar features links to all the relevant social media sites that Beam Me Up has accounts for. In addition, the links open into a new tab to let the site user easy navigation and the ability to still browse the Beam Me Up website. 
 
-![Footer](LINK TO FOOTER)
+![Footer](assets/images/read.me.images/footer.png)
 
 ## 3. Design
 
@@ -100,7 +112,6 @@ It is important to ensure that the website is user friendly. I have fufilled thi
 - I have used semantic HTML.
 - Establishing adequate colour contrast on the website overall.
 - I have used alt and title attributes on images throughout the website.
-- TO BE CONTINUED REGARDING STARS AND ICONS READABLE.
 
 ## 4. Technologies Applied
 
