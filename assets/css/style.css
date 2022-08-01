@@ -194,26 +194,26 @@ button {
 /* card 1 2 3 4 css styling */
 
 .card1 {
-  background-image: url(../images/home-page/orange.jpg);
+  background-image: url(../images/home-page/card1-orange.jpg);
   background-position: center;
   background-size: cover;
 
 }
 
 .card2 {
-  background-image: url(../images/home-page/arch.jpg);
+  background-image: url(../images/home-page/card2-arch.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .card3 {
-  background-image: url(../images/home-page/stars.jpg);
+  background-image: url(../images/home-page/card3-stars.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .card4 {
-  background-image: url(../images/home-page/abduction.jpg);
+  background-image: url(../images/home-page/card4-ufo.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -226,7 +226,7 @@ button {
   margin: 20px;
 }
 #events {
-    background: url('../images/home-page/events-background.jpg');
+    background: url('../images/home-page/events-bkgrd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -308,28 +308,15 @@ button {
   width: 120px;
   height: 30px;
   color: #000000;
-  font-size: 12px;
-  padding: 0;
-  background: none;
-  border: 0;
-  margin: 0;
-  border-radius: 30px;
-  outline: none;
-  box-shadow: none;
-}
-.b-button {
   font-size: 16px;
-  width: 50px;
-  height: 20px;
-  color: #000000;
-  background: #FAF9F6;
+  background: none;
   border: 1px solid #000000;
   padding: 6px;
-  border-radius: 10px;
-  outline: none;
+  margin: 0;
+  box-shadow: none;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: bolder;
-  }
+  font-weight: 900;
+}
 
 .grid-container {
   display: grid; 
@@ -388,6 +375,7 @@ button {
 .review__content iframe {
   width: 600px;
   height: 300px;
+  border: none;
 }
 
 .movies-row {
@@ -672,7 +660,7 @@ nav ul li {
 a:hover {
   background: none;
   color: #000000;
-  font-style: bold;
+  font-weight:bold;
 }
   #check:checked ~ ul{
    right: 0;

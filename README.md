@@ -136,6 +136,8 @@ To test my code, I used W3C Validator for both HTML and CSS.
 
 1. I was warned it was not good practice to have the left column as a h1 tag and should change this to a h2.
 
+2. Removed '="text-input" after required on the contact form. The validator flagged this as a bad value. 'Required' as an attribute can be left on its own and does not require the additional text. Therefore, I removed this. 
+
 2. I was warned it was not good practice to have an anchor tag inside a button. Therefore, instead I found an alternative on W3 Docs (https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html), which meant I could add the link using 'onclick' within the button tag.
 . Despite the navbar being fixed, when on the contact page the form would overlap and cover the navabar when scrolling. This would prevent users from being able to easily access the menu at all times. They would have to scroll all the way to the top on just the contact page which does not fit flush with the rest of the website, that can access the fixed navbar at all times when scrolling. While reading on W3Schools (https://www.w3schools.com/cssref/pr_pos_z-index.asp) I was reminded about z-index. Therefore, to resolve the issued, I set the navbar to z-index 999 to guarantee it would always be stacked in front of other elements. 
 
