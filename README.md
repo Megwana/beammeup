@@ -77,6 +77,10 @@ The footer bar features links to all the relevant social media sites that Beam M
 
 ### Colour Schemes 
 
+The reason I have chosen this colour scheme for my website is:
+
+I wanted there to be black and white as reoccuring colours to reflect the night sky. The more cream colour was chosen to bring a link between the two and reflect the off-white nature of the moon. The fourth colour I wanted to be rather bright because all my other colours are quite neutral. The redish Orange, is inspired by the colour of the sun and is used to give a pop of colour and highlight parts of the website. 
+
 ![Beam Me Up Website's Colour Pallette](assets/images/read.me.images/color-pallette.png)
 
 ### Typography 
