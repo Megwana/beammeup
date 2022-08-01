@@ -1,12 +1,15 @@
 # Beam Me Up Website 
 
-Beam Me Up is a website designed for visitors to find out about the Beam Me Up movie club which specifically meet to watch space-themed Sci Fi movies in Brighton. 
+Beam Me Up is a website designed for visitors to find out about the Beam Me Up movie club. As a movie club they meet to watch space-themed Sci Fi movies locally in Brighton. 
 
 The Website is responsive, which can allow visitors to view the site on a multitude of devices. 
+
+This website was created for educational purposed only.
 
 ![View Beam Me Up Website on all devices](assets/images/read.me.images/media-mockup.png)
 
 ## 1. User Experience & Project Goals 
+
 
 ### First-time visitors
 
@@ -108,9 +111,13 @@ To create this website, I have used two languages, HTML and CSS.
 ### Other Technologies
 
 - Google Fonts: Imported for the fonts used.
+https://fonts.google.com/
 - Font Awesome: Used for all iconography.
-- Google Development Tools: Used to test/ troubleshoot any issues and find solutions. In addition, to review the websites responsiveness on different device dimensions.
+https://fontawesome.com/
+- Google Development Tools: Used to test/ troubleshoot any issues and find solutions.
+ In addition, to review the websites responsiveness on different device dimensions.
 - Github: Used to save and store all the files for Beam Me Up. 
+https://github.com/enterprise?ef_id=3284471c0907111ab5f625fbdab0012a:G:s&OCID=AID2202670_SEM_3284471c0907111ab5f625fbdab0012a:G:s&msclkid=3284471c0907111ab5f625fbdab0012a
 - Am I Responsive: To display the website on a variet of devices.
 
 ## 5. Testing
@@ -134,6 +141,15 @@ To test my code, I used W3C Validator for both HTML and CSS.
 
 ## Deployment
 
+GitHub pages was used to deploy the live website of Beam Me Up. The measures to deploy the website are as follows:
+
+Step 1: Logged on to GitHub Pages.
+Step 2: Navigated to the settings tab, which can be found in the GitHub repository.
+Step 3: From the source section drop-down menu, selected the Master Branch. 
+Step 4: Once the mast branch was selected, the page automatically refreshed with a detailed ribbon display, registering the website's successful deployment. 
+
+The live links can be found here - 
+
 ## Credits
 
 ### Code Used
@@ -147,7 +163,7 @@ https://www.youtube.com/watch?v=oLgtucwjVII
 - Dom from 'dcode' Youtube Channel: His code for creating an Accordian was how I created my drop down box on the movies review page. I changed parts to suit my website but I directly used the triangle image he has for the drop down symbol.
 https://codepen.io/dcode-software/pen/oNjXqzg
 
-### Thank You
+### Acknowledgemnts & Thank yous
 
 Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state.
 
@@ -156,6 +172,7 @@ Thank you Ashkat Garg for the recommendation of the following technologies:
 - TinyPNG - https://tinypng.com/
 - Multi Device Website Generator - http://techsini.com/multi-mockup/index.php
 - Flexbox Froggy - https://flexboxfroggy.com/
+- Webformatter - https://webformatter.com/
 
 ### Content
 
@@ -166,4 +183,4 @@ All images used on the website were from the following websites where you can us
 - Pexels https://www.pexels.com/
 - Pixabay https://pixabay.com/
 
-I would loved to have used imagery from the movie's posters however, to avoid any copyright infringements and because the site is for educational purposes only; I decided to source the images from the websites listed above. 
+I would loved to have used imagery from the movie's posters however, to avoid any copyright infringements and because the site is for educational purposes only; I decided to source the images from the websites listed above.
