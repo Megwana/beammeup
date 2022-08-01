@@ -99,7 +99,7 @@ It is important to ensure that the website is user friendly. I have fufilled thi
 - I have used alt and title attributes on images throughout the website.
 - TO BE CONTINUED REGARDING STARS AND ICONS READABLE.
 
-## Technologies Applied
+## 4. Technologies Applied
 
 ### Languages Utilised 
 
@@ -113,7 +113,7 @@ To create this website, I have used two languages, HTML and CSS.
 - Github: Used to save and store all the files for Beam Me Up. 
 - Am I Responsive: To display the website on a variet of devices.
 
-## Testing
+## 5. Testing
 
 ### Validator Testing
 
