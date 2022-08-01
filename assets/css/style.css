@@ -700,20 +700,28 @@ a:hover {
 }
 
 .left-col {
+
   justify-content: center;
   align-content: center;
+  margin: 220px 0 0 0;
 }
 .left-col h3 {
   font-size: 30px;
 }
 
+.left-col button {
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
 .right-col {
-  padding: 160px 0 100px;
+  padding: 200px 0 100px;
 }
 
 .card {
   width: 98%;
-  height: 150px;
+  height: 170px;
   padding: 8px 10px;
   margin: 10px 8px;
 }
@@ -837,7 +845,7 @@ form {
     font-weight: bold;
   }
 
-  #intro h2 {
+  .col h2 {
     font-size: 50px;
   }
 
