@@ -8,7 +8,7 @@ This website was created for educational purposed only and is a fictional concep
 
 ![View Beam Me Up Website on all devices](assets/images/read.me.images/media-mockup.png)
 
-![View the live site here](https://megwana.github.io/beammeup/index.html)
+View the live site here: https://megwana.github.io/beammeup/index.html)
 
 ## 1. User Experience & Project Goals 
 
@@ -165,41 +165,41 @@ Please see the final lighthouse review scores for each page:
 
 Mobile Device:
 
-![Index Page HTML](assets/images/read.me.images/home-mobile-lighthouse.png)
+![Index Page HTML](assets/images/read.me.images/live-mob-light.png)
 
 Desktop Device: 
 
-![Index Page HTML](assets/images/read.me.images/home-desktop-lighthouse.png)
+![Index Page HTML](assets/images/read.me.images/live-desk-lighthouse.png)
 
 - About Page (about.html)
 
 Mobile Device:
 
-![About Page HTML](assets/images/read.me.images/about-mobile-lighthosue.png)
+![About Page HTML](assets/images/read.me.images/about-live-mob-light.png)
 
 Desktop Device: 
 
-![About Page HTML](assets/images/read.me.images/about.desktop-lighthouse.png)
+![About Page HTML](assets/images/read.me.images/about-live-desk-light.png)
 
 - Movie Review Page (movies.html)
 
 Mobile Device:
 
-![Movie Page HTML](assets/images/read.me.images/movies-mobile-lighthouse.png)
+![Movie Page HTML](assets/images/read.me.images/movies-live-mob-light.png)
 
 Desktop Device: 
 
-![Movie Page HTML](assets/images/read.me.images/movies-desktop-lighthouse2.png)
+![Movie Page HTML](assets/images/read.me.images/movies-live-desk-light.png)
 
 - Contact Page (contact.html)
 
 Mobile Device:
 
-![Contact Page HTML](assets/images/read.me.images/contact-mobile-lighthouse.png)
+![Contact Page HTML](assets/images/read.me.images/contact-live-mob-light.png)
 
 Desktop Device: 
 
-![Contact Page HTML](assets/images/read.me.images/contact-desktop-lighthouse.png)
+![Contact Page HTML](assets/images/read.me.images/contact-live-desk-light.png)
 
 ### Bugs 
 
