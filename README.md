@@ -129,7 +129,8 @@ https://fontawesome.com/
  In addition, to review the websites responsiveness on different device dimensions.
 - Github: Used to save and store all the files for Beam Me Up. 
 https://github.com/enterprise?ef_id=3284471c0907111ab5f625fbdab0012a:G:s&OCID=AID2202670_SEM_3284471c0907111ab5f625fbdab0012a:G:s&msclkid=3284471c0907111ab5f625fbdab0012a
-- Am I Responsive: To display the website on a variet of devices.
+- Multi device Website Generator: Link featured in the credits section. 
+- Webformatter: To make the code easy to follow for marking. https://webformatter.com/
 
 ## 5. Testing
 
@@ -137,11 +138,11 @@ https://github.com/enterprise?ef_id=3284471c0907111ab5f625fbdab0012a:G:s&OCID=AI
 
 To test my code, I used W3C Validator for both HTML and CSS.
 
-* [Index Page HTML](image of HTML Passed)
-* [About Page HTML](image of HTML Passed)
-* [Movies Page HTML](image of HTML Passed)
-* [Contact Page HTML](image of HTML Passed)
-* [Style.css CSS](image of CSS Passed)
+* [Index Page HTML](assets/images/read.me.images/index.html-validator.png)
+* [About Page HTML](assets/images/read.me.images/about.page-validator.png)
+* [Movies Page HTML](assets/images/read.me.images/movies-validator.png)
+* [Contact Page HTML](assets/images/read.me.images/contact-validator.png)
+* [Style.css CSS](assets/images/read.me.images/css-validator.png)
 
 ### Bugs 
 
@@ -167,14 +168,16 @@ The live links can be found here -
 
 ### Code Used
 
-- 'Easy Tutorials' Youtube Channel: This inspired the layout for my home page. However, I changed elements to suit my preferences and the website.
+- 'Easy Tutorials' Youtube Channel: This inspired the left and right column for my home page. However, I changed elements to suit my preferences and the website.
 https://www.youtube.com/watch?v=Oa9LTDR9ugU
 
-- 'Coding Nepal' Youtube Channel: This inspired the function of the navigation bar when used on devices with a max-width of 992px. 
+- 'Coding Nepal' Youtube Channel: This inspired the function of the navigation bar when used on devices with a max-width of 992px. However, I changed elements to suit my preferences and the website.
 https://www.youtube.com/watch?v=oLgtucwjVII
 
-- Dom from 'dcode' Youtube Channel: His code for creating an Accordian was how I created my drop down box on the movies review page. I changed parts to suit my website but I directly used the triangle image he has for the drop down symbol.
+- Dom from 'dcode' Youtube Channel: His code for creating an Accordian was how I created my drop down box on the movies review page. I changed parts to suit my website but I directly used the triangle image he has for the drop down symbol and the code that allows it to rotate.
 https://codepen.io/dcode-software/pen/oNjXqzg
+
+- Love Running project - similar code used for the event/ times meetup. 
 
 ### Acknowledgemnts & Thank yous
 
