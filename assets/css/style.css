@@ -20,14 +20,15 @@ nav {
   z-index: 9999;
 }
 
-label#logo {
+#logo {
   color: #ffffff;
   font-family: "Bungee", cursive;
-  font-size: 250%;
+  font-size: 200%;
   line-height: 86px;
   letter-spacing: 4px;
-  padding: 0 60px;
+  padding: 0 20px;
   font-weight: bold;
+  float: left;
 }
 
 nav ul {
@@ -136,7 +137,7 @@ nav ul li a {
 }
 
 .right-col {
-  padding: 160px 0px 100px 0px;
+  padding: 160px 0 100px 0;
   display: block;
 }
 
@@ -304,7 +305,7 @@ button {
 .abt-img {
   display: flex;
   float: right;
-  margin: 0px;
+  margin: 0;
   padding: 10px 10px;
 }
 
@@ -561,9 +562,9 @@ textarea {
 }
 /* media screen adaptation for nav bar css */
 @media screen and (max-width: 1200px) {
-  label#logo {
-    font-size: 30px;
-    padding-left: 30px;
+  #logo {
+    font-size: 24px;
+    padding-left: 20px;
   }
 
   nav ul li a {
@@ -647,7 +648,7 @@ footer > p {
 @media screen and (max-width: 992px) {
   #section1 {
     height: 1300px;
-    margin: 0px 0px;
+    margin: 0;
   }
 
   .checkbtn {
@@ -743,7 +744,7 @@ footer > p {
       "friends";
   }
   .abt-img {
-    margin: 0px;
+    margin: 0;
     padding: 10px 10px;
     width: 100%;
     object-fit: cover;
@@ -795,11 +796,6 @@ footer > p {
     align-items: center;
   }
 
-  label#logo {
-    font-size: 24px;
-    padding-left: 20px;
-  }
-
   .abt-img > img {
     width: 100%;
     height: 400px;
@@ -846,11 +842,11 @@ footer > p {
 
 @media screen and (max-width: 400px) {
 
-  label#logo {
+  #logo {
     font-size: 20px;
     line-height: 86px;
     letter-spacing: 2px;
-    padding: 0 0 0 6px;
+    padding-left: 6px;
     font-weight: bold;
   }
 
@@ -867,7 +863,7 @@ footer > p {
     height: auto;
   }
   .right-col {
-    padding: 36px 16px 6px 0px;
+    padding: 36px 16px 6px 0;
     width: 100%;
     height: auto;
     justify-content: center;
