@@ -8,7 +8,7 @@ This website was created for educational purposed only and is a fictional concep
 
 ![View Beam Me Up Website on all devices](assets/images/read.me.images/media-mockup.png)
 
-![View the live site here](http)
+![View the live site here](https://megwana.github.io/beammeup/index.html)
 
 ## 1. User Experience & Project Goals 
 
@@ -226,13 +226,13 @@ GitHub pages was used to deploy the live website of Beam Me Up. The measures to 
 
 Step 1: Logged on to GitHub Pages.
 
-Step 2: Navigated to the settings tab, which can be found in the GitHub repository.
+Step 2: Navigated to the settings tab, which can be found in the GitHub repository for Beam Me Up.
 
-Step 3: From the source section drop-down menu, selected the Master Branch. 
+Step 3: On the left hand column, I went to Pages and selected the master branch 'main'.
 
-Step 4: Once the mast branch was selected, the page automatically refreshed with a detailed ribbon display, registering the website's successful deployment. 
+Step 4: Once the mast branch was selected, I clicked 'save' and the page automatically refreshed with a live link at the top of the page, registering the website's successful deployment.
 
-The live links can be found here - 
+The live links can be found here - https://megwana.github.io/beammeup/index.html
 
 ## 7. Credits
 
