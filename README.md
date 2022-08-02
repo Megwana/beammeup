@@ -145,7 +145,7 @@ https://github.com/enterprise?ef_id=3284471c0907111ab5f625fbdab0012a:G:s&OCID=AI
 
 ## 5. Testing
 
-I have tested this site on Google Chrome, Mozilla Firefox and Microsoft Edge, and an iPhone.
+I have tested this site on Google Chrome, Mozilla Firefox and Microsoft Edge, and Safari.
 
 ### Validator Testing
 
