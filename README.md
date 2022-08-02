@@ -36,7 +36,8 @@ This website was created for educational purposed only and is a fictional concep
 
 -__Navigation Bar__
 
-- On all three pages, there is a navigation bar that is full responsive. The navigation bar includes a the movie club's logo 'Beam Me Up', the Home Page, the About page, the movie review page and the contact page. I have created each the same on each page for ease of navigation. However, there is a difference on the contact page. When you hover over the link is highlights #fff instead of #orange like the others. This is because contacting about joining the club and/or any queries are vital. Therefore, I wanted it have a different identifier to the others to stick out from the other links in on the navigation bar. 
+- On all three pages, there is a navigation bar that is full responsive. The navigation bar includes a the movie club's logo 'Beam Me Up', the Home Page, the About page, the movie review page and the contact page. I have created each the same on each page for ease of navigation. However, there is a difference on the contact page. When you hover over the link is highlights #ffffff instead of #e62e0 like the others. This is because contacting about joining the club and/or any queries are vital. Therefore, I wanted it have a different identifier to the others to stick out from the other links in on the navigation bar. (see below the desktop and mobile view images for reference. )
+
 - The navigation bar will allow the user to easily navigate from each page (and across all devices) without having to regress back to the previous page. 
 
 Desktop view:
@@ -46,6 +47,13 @@ Desktop view:
 Smaller devices below:
 
 ![View Beam Me Up Navigaton bar in smaller screen mode](assets/images/read.me.images/mobile-navbar.png)
+
+As mentioned when you hover over the 'contact' icon, it highlights #ffffff on desktop view and #000000 on smaller devices. See below: 
+![View Beam Me Up Navigaton bar in smaller screen mode](assets/images/read.me.images/highlight-nav-mobile.png)
+
+Another feature of the navigation bar, is that I have highlighted the icon to match the page you are on, so the visitor can easily see where they are on the website and navigate where they want to go next. Exemplified below in Desktop view:
+
+![View Beam Me Up Navigaton bar in smaller screen mode](assets/images/read.me.images/highlight-nav.png)
 
 -__The landing page background image__
 
@@ -202,7 +210,7 @@ Desktop Device:
 2. I was warned it was not good practice to have an anchor tag inside a button. Therefore, instead I found an alternative on W3 Docs (https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html), which meant I could add the link using 'onclick' within the button tag.
 . Despite the navbar being fixed, when on the contact page the form would overlap and cover the navabar when scrolling. This would prevent users from being able to easily access the menu at all times. They would have to scroll all the way to the top on just the contact page which does not fit flush with the rest of the website, that can access the fixed navbar at all times when scrolling. While reading on W3Schools (https://www.w3schools.com/cssref/pr_pos_z-index.asp) I was reminded about z-index. Therefore, to resolve the issued, I set the navbar to z-index 999 to guarantee it would always be stacked in front of other elements. 
 
-4. When trying to make my website responsive, there would be a white block appearing on the right hand side of the screen. I fixed this by using 'overflow-x: hidden' in media screen max-width 992px after researching this on https://www.w3schools.com/. 
+4. When trying to make my website responsive, there would be a white block appearing on the right hand side of the screen. I fixed this by using 'overflow-x: hidden' in media screen max-width 768px after researching this on https://www.w3schools.com/. 
 
 ### Unfixed Bugs 
 
