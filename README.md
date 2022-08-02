@@ -29,7 +29,6 @@ This website was created for educational purposed only and is a fictional concep
 - I want the home page to invite them into sci-fi notalgia but with still a modern feel. 
 - I want visitors to be able to contact the site organisers with ease about any queries they may have. 
 - I want visitors to see images of on the about page of our club meeting for movie watching to highlight the social aspect of the club. 
-- I want visitors to have easy access to the location of our meet ups via google maps on the website, so they can easily attend meet ups. 
 
 ## 2. Features 
 
@@ -88,6 +87,10 @@ The footer bar features links to all the relevant social media sites that Beam M
 
 ![Footer](assets/images/read.me.images/footer.png)
 
+### Future Features 
+
+I intend to add an iframe with Google Maps to allow visitors the ease of locating the meet up location.
+
 ## 3. Design
 
 ### Colour Schemes 
@@ -134,6 +137,8 @@ https://github.com/enterprise?ef_id=3284471c0907111ab5f625fbdab0012a:G:s&OCID=AI
 
 ## 5. Testing
 
+I have tested this site of Google Chrome, Mozilla Firefox and Microsoft Edge and an iphone.
+
 ### Validator Testing
 
 To test my code, I used W3C Validator for both HTML and CSS.
@@ -144,6 +149,50 @@ To test my code, I used W3C Validator for both HTML and CSS.
 * [Contact Page HTML](assets/images/read.me.images/contact-validator.png)
 * [Style.css CSS](assets/images/read.me.images/css-validator.png)
 
+### Lighthouse Testing 
+
+Please see the final lighthouse review scores for each page: 
+
+- Home Page (index.html)
+
+Mobile Device:
+
+![Index Page HTML](assets/images/read.me.images/home-mobile-lighthouse.png)
+
+Desktop Device: 
+
+![Index Page HTML](assets/images/read.me.images/home-desktop-lighthouse.png)
+
+- About Page (about.html)
+
+Mobile Device:
+
+![About Page HTML](assets/images/read.me.images/about-mobile-lighthosue.png)
+
+Desktop Device: 
+
+![About Page HTML](assets/images/read.me.images/about.desktop-lighthouse.png)
+
+- Movie Review Page (movies.html)
+
+Mobile Device:
+
+![Movie Page HTML](assets/images/read.me.images/movies-mobile-lighthouse.png)
+
+Desktop Device: 
+
+![Movie Page HTML](assets/images/read.me.images/movies-desktop-lighthouse2.png)
+
+- Contact Page (contact.html)
+
+Mobile Device:
+
+![Contact Page HTML](assets/images/read.me.images/contact-mobile-lighthouse.png)
+
+Desktop Device: 
+
+![Contact Page HTML](assets/images/read.me.images/contact-desktop-lighthouse.png)
+
 ### Bugs 
 
 1. I was warned it was not good practice to have the left column as a h1 tag and should change this to a h2.
@@ -153,18 +202,31 @@ To test my code, I used W3C Validator for both HTML and CSS.
 2. I was warned it was not good practice to have an anchor tag inside a button. Therefore, instead I found an alternative on W3 Docs (https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html), which meant I could add the link using 'onclick' within the button tag.
 . Despite the navbar being fixed, when on the contact page the form would overlap and cover the navabar when scrolling. This would prevent users from being able to easily access the menu at all times. They would have to scroll all the way to the top on just the contact page which does not fit flush with the rest of the website, that can access the fixed navbar at all times when scrolling. While reading on W3Schools (https://www.w3schools.com/cssref/pr_pos_z-index.asp) I was reminded about z-index. Therefore, to resolve the issued, I set the navbar to z-index 999 to guarantee it would always be stacked in front of other elements. 
 
-## Deployment
+4. When trying to make my website responsive, there would be a white block appearing on the right hand side of the screen. I fixed this by using 'overflow-x: hidden' in media screen max-width 992px after researching this on https://www.w3schools.com/. 
+
+### Unfixed Bugs 
+
+The best practice score is affected on the website by the images and youtube embedded iframes. 
+
+1. I have tried to resolve the website images by re-sizing, compressing and reducing to the appropriate size. However, it now says the images have reduced to a size and should be their orignal size. 
+
+2. For the embedded iframes it is not registering the 'SameSite:None' & 'secure' Attribute or the 'no-cookies' added to the youtube link which have been the advice for troubleshooting when I have researched this issue. However, I am still in the process of resolving this to boost my best practice score and overall performance. 
+
+## 6. Deployment
 
 GitHub pages was used to deploy the live website of Beam Me Up. The measures to deploy the website are as follows:
 
 Step 1: Logged on to GitHub Pages.
+
 Step 2: Navigated to the settings tab, which can be found in the GitHub repository.
+
 Step 3: From the source section drop-down menu, selected the Master Branch. 
+
 Step 4: Once the mast branch was selected, the page automatically refreshed with a detailed ribbon display, registering the website's successful deployment. 
 
 The live links can be found here - 
 
-## Credits
+## 7. Credits
 
 ### Code Used
 
@@ -183,6 +245,8 @@ https://codepen.io/dcode-software/pen/oNjXqzg
 
 Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state.
 
+Including the standard breakpoints for a responsive website via https://www.w3schools.com/
+
 Thank you Ashkat Garg for the recommendation of the following technologies:
 
 - TinyPNG - https://tinypng.com/
@@ -199,4 +263,10 @@ All images used on the website were from the following websites where you can us
 - Pexels https://www.pexels.com/
 - Pixabay https://pixabay.com/
 
-I would loved to have used imagery from the movie's posters however, to avoid any copyright infringements and because the site is for educational purposes only; I decided to source the images from the websites listed above.
+All the trailers in the movie review page are via: 
+
+- https://www.youtube.com/
+
+For the brief synopsis for each movie before the drop down box, I used the descriptions from 'imbd' as they gave accurate and concise descriptions that were very fitting for each movie.
+
+- https://www.imdb.com/
