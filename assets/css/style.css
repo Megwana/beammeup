@@ -757,9 +757,15 @@ footer > p {
   color: #ffffff;
   text-align: center;
 }
-
+.links {
+  height: 100vh;
+}
 .links h2, .links p {
   text-align: center;
+}
+
+.links h2 {
+  margin: 200px;
 }
 
 /* additional media screen adaptation for nav bar css */
