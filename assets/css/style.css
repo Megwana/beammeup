@@ -549,7 +549,7 @@ textarea {
   background-color: #e62e00;
 }
 
-@media screen and (min-width: 1950px) {
+@media screen and (min-width: 1900px) {
 .right-col {
   padding: 200px 0 200px 0;
   display: block;
@@ -658,9 +658,6 @@ display: grid;
   height: 60px;
 }
 
-.abt-img > img {
-  object-fit: contain;
-}
 
 form p {
   font-weight: 400;
@@ -712,7 +709,7 @@ button {
 }
 
   .abt-img > img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     border-radius: 20px;
   }
