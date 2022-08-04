@@ -759,6 +759,7 @@ footer > p {
 }
 .error-page {
   height: 100vh;
+  margin-top: 200px;
 }
 
 .error-pageh2, .error-page p {
@@ -766,7 +767,11 @@ footer > p {
 }
 
 .error-page h2 {
-  margin-top: 200px;
+  font-size: 52px;
+}
+
+.error-page p {
+  font-size: 40px;
 }
 
 /* additional media screen adaptation for nav bar css */
