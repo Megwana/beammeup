@@ -758,20 +758,20 @@ footer > p {
   text-align: center;
 }
 .error-page {
-  height: 100vh;
-  margin-top: 200px;
+  min-height: 100vh;
 }
 
-.error-pageh2, .error-page p {
+.error-page h2, .error-page p {
   text-align: center;
 }
 
 .error-page h2 {
-  font-size: 52px;
+  font-size: 100px;
+  padding-top: 300px;
 }
 
 .error-page p {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 /* additional media screen adaptation for nav bar css */
