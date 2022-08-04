@@ -34,6 +34,12 @@ View the live site here: https://megwana.github.io/beammeup/index.html
 
 ### Current Features
 
+-__Logo__
+
+Beam Me Up logo has a link back to the home page for good user experience. 
+
+![View Beam Me Up Navigation bar in desktop mode](assets/images/read.me.images/navbar-full-screen.png)
+
 -__Navigation Bar__
 
 - On all three pages, there is a fully responsive navigation bar. The navigation bar includes the movie club's logo 'Beam Me Up', the Home Page, the About page, the movie review page, and the contact page. I have created the same on each page for ease of navigation. However, there is a difference on the contact page. When you hover over the link it highlights #ffffff instead of #e62e0 like the others. This is because contacting about joining the club and/or any queries are vital. Therefore, I wanted it to have a different identifier from the others to stick out from the other links on the navigation bar. (see below the desktop and mobile view images for reference. )

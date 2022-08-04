@@ -326,13 +326,13 @@ button {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 4px 4px;
   grid-template-areas:
-    "text founders"
-    "text cinema"
-    "text friends";
+    "text text founders"
+    "text text cinema"
+    "text text friends";
 }
 
 .text {
@@ -369,7 +369,7 @@ button {
 
 #movies-page h1 {
   font-size: 52px;
-  padding-top: 200px;
+  padding-top: 130px;
 }
 
 .movies-content {
@@ -549,12 +549,12 @@ textarea {
   background-color: #e62e00;
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1950px) {
 .right-col {
   padding: 200px 0 200px 0;
   display: block;
   flex-basis: auto;
-  margin: 400px auto;
+  margin: auto;
   justify-content: center;
   align-content: center;
 }
@@ -623,6 +623,16 @@ textarea {
   line-height: 32px;
 }
 
+.grid-container {
+display: grid;
+  grid:
+    "text text founders" 1fr
+    "text text cinema" 1fr
+    "text text friends" 1fr
+    / 1fr 1fr 1fr;
+  gap: 4px;
+}
+
 .about {
   background-color: #faf9f6;
   border-radius: 50px;
@@ -647,8 +657,9 @@ textarea {
   width: 300px;
   height: 60px;
 }
-.contact-form h1, .about-title h1, #movies-page h1 {
-  font-size: 80px;
+
+.abt-img > img {
+  object-fit: contain;
 }
 
 form p {
@@ -705,20 +716,10 @@ button {
     width: 100%;
     border-radius: 20px;
   }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 4px 4px;
-    grid-template-areas:
-      "text founders"
-      "text cinema"
-      "text friends";
-  }
 
   .movies-content {
     color: #000000;
-    padding-top: 130px;
+    padding-top: 20px;
     margin: auto;
     overflow: hidden;
     max-width: 2000px;
@@ -738,7 +739,7 @@ button {
 }
 /* media screen adaptation for nav bar css */
 @media screen and (max-width: 1200px) {
-  #logo {
+  #logo a {
     font-size: 24px;
     padding-left: 20px;
   }
@@ -1051,7 +1052,7 @@ footer > p {
 
 @media screen and (max-width: 400px) {
 
-  #logo {
+  #logo a {
     font-size: 20px;
     line-height: 86px;
     letter-spacing: 2px;
