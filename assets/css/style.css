@@ -580,6 +580,14 @@ textarea {
   margin: 20px;
 }
 
+.join-button:hover {
+  font-size: 50px;
+  width: 30%;
+  height: 150px;
+  color: #000000;
+  transition: 0.2s;
+}
+
 .card {
   height: 400px;
   width: 400px;
