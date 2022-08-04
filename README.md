@@ -253,7 +253,7 @@ https://codepen.io/dcode-software/pen/oNjXqzg
 
 Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state.
 
-Including the standard breakpoints for a responsive website via https://www.w3schools.com/
+Including, the standard breakpoints for a responsive website via https://www.w3schools.com/
 
 Thank you Ashkat Garg for the recommendation of the following technologies:
 
@@ -261,6 +261,8 @@ Thank you Ashkat Garg for the recommendation of the following technologies:
 - Multi Device Website Generator - http://techsini.com/multi-mockup/index.php
 - Flexbox Froggy - https://flexboxfroggy.com/
 - Webformatter - https://webformatter.com/
+
+A special thank you to the helpful feedback from Kera Cudmore and Mateusz for my Peer Review.
 
 ### Content
 
