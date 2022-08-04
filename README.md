@@ -1,6 +1,6 @@
 # Beam Me Up Website 
 
-Beam Me Up is a website designed for visitors to find out about the 'Beam Me Up' movie club. As a movie club, they meet once a month to watch space-themed Sci-Fi movies locally in Brighton. They then discuss the movie after watching it and post short reviews giving their opinion on the movie. The reviews are not in-depth as it is a recreational club that enjoys watching this genre as a casual hobby. 
+Beam Me Up is a website designed for visitors to find out about the 'Beam Me Up' movie club. As a movie club, they meet once a month to watch space-themed Sci-Fi movies locally in Brighton. They then discuss the movie after watching it and post short reviews giving their opinion on the movie. The reviews are not in-depth as it is a recreational club that enjoys watching this genre as a casual hobby. The club is free for members to join, as displayed in the about page. 
 
 The Website is responsive, which can allow visitors to view the site on a multitude of devices. 
 
@@ -258,6 +258,8 @@ https://codepen.io/dcode-software/pen/oNjXqzg
 ### Disclosures
 
 - Please note, instead of using e.g. Balsamiq, I used replit first to play around with the framework with a more hands on feel. Therefore, I may not have as many commits because I built a lot of the basics on replit first and transferred this over. In future, I will build and commit from github as good practice. 
+
+![Original Layout from replit](assets/images/read.me.images/replit-framework.png)
 
 ### Acknowledgments & Thank yous
 
