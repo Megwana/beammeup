@@ -775,6 +775,12 @@ footer > p {
   padding: 10px 50px;
 }
 
+.error-page a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
+}
+
 /* additional media screen adaptation for nav bar css */
 @media screen and (max-width: 992px) {
   #section1 {
