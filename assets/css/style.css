@@ -284,17 +284,17 @@ button {
   font-family: "Ubuntu", sans-serif;
 }
 
-.about-title {
+.about-title h2 {
   color: #000000;
   text-align: center;
-  font-size: 26px;
+  font-size: 52px;
   color: #000000;
   padding-top: 130px;
   margin: 0 0 40px;
   overflow: hidden;
 }
 
-.about h2 {
+.about h3 {
   padding: 0 0 10px 0;
   text-align: center;
 }
@@ -367,7 +367,7 @@ button {
   height: 100vh;
 }
 
-#movies-page h1 {
+#movies-page h2 {
   font-size: 52px;
   padding-top: 130px;
 }

@@ -12,7 +12,6 @@ View the live site here: https://megwana.github.io/beammeup/index.html
 
 ## 1. User Experience & Project Goals 
 
-
 ### First-time visitors
 
 - For first-time visitors, I want them to understand what the website is about and to who it is targeted too. 
@@ -257,7 +256,7 @@ https://codepen.io/dcode-software/pen/oNjXqzg
 
 ### Disclosures
 
-- Please note, instead of using e.g. Balsamiq, I used replit first to play around with the framework with a more hands on feel. Therefore, I may not have as many commits because I built a lot of the basics on replit first and transferred this over. In future, I will build and commit from github as good practice. 
+- Please note, instead of using e.g. Balsamiq, I used replit first to play around with the framework with a more hands on feel. Therefore, I may not have as many commits in the initial stage because I built a lot of the basics on replit first and transferred this over. In future, I will build and commit from github as good practice. 
 
 ![Original Layout from replit](assets/images/read.me.images/replit-framework.png)
 
