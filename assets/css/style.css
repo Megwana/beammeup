@@ -772,6 +772,7 @@ footer > p {
 
 .error-page p {
   font-size: 50px;
+  padding: 10px 50px;
 }
 
 /* additional media screen adaptation for nav bar css */
