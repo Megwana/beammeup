@@ -758,7 +758,7 @@ footer > p {
   text-align: center;
 }
 
-.links h2 .links p {
+.links h2, .links p {
   text-align: center;
 }
 
