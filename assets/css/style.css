@@ -489,6 +489,7 @@ button {
 .contact-content {
   display: flex;
   justify-content: center;
+  min-height: 100vh;
 }
 form {
   flex-direction: column;
