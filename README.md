@@ -38,7 +38,7 @@ View the live site here: https://megwana.github.io/beammeup/index.html
 
 Beam Me Up logo has a link back to the home page for good user experience. 
 
-![View Beam Me Up Navigation bar in desktop mode](assets/images/read.me.images/navbar-full-screen.png)
+![View Beam Me Up Navigation bar in desktop mode](assets/images/read.me.images/logo.png)
 
 -__Navigation Bar__
 
