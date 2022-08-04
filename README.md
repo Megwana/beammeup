@@ -255,6 +255,10 @@ https://codepen.io/dcode-software/pen/oNjXqzg
 
 - Love Running project - similar code used for the event/ times meetup. 
 
+### Disclosures
+
+- Please note, instead of using e.g. Balsamiq, I used replit first to play around with the framework with a more hands on feel. Therefore, I may not have as many commits because I built a lot of the basics on replit first and transferred this over. In future, I will build and commit from github as good practice. 
+
 ### Acknowledgments & Thank yous
 
 Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state.
@@ -269,8 +273,6 @@ Thank you Ashkat Garg for the recommendation of the following technologies:
 - Webformatter - https://webformatter.com/
 
 A special thank you to the helpful feedback from Kera Cudmore and Mateusz for my Peer Review.
-
-### Content
 
 ### Media
 
