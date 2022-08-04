@@ -757,15 +757,16 @@ footer > p {
   color: #ffffff;
   text-align: center;
 }
-.links {
+.error-page {
   height: 100vh;
 }
-.links h2, .links p {
+
+.error-pageh2, .error-page p {
   text-align: center;
 }
 
-.links h2 {
-  margin: 200px;
+.error-page h2 {
+  margin-top: 200px;
 }
 
 /* additional media screen adaptation for nav bar css */
