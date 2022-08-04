@@ -20,7 +20,7 @@ nav {
   z-index: 9999;
 }
 
-#logo {
+#logo a {
   color: #ffffff;
   font-family: "Bungee", cursive;
   font-size: 200%;
@@ -650,6 +650,13 @@ textarea {
 .contact-form h1, .about-title h1, #movies-page h1 {
   font-size: 80px;
 }
+
+form p {
+  font-weight: 400;
+  font-size: 50px;
+  padding: 20px;
+}
+
 .contact-form label {
   font-size: 38px;
 }
