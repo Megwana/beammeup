@@ -758,6 +758,10 @@ footer > p {
   text-align: center;
 }
 
+.links h2 .links p {
+  text-align: center;
+}
+
 /* additional media screen adaptation for nav bar css */
 @media screen and (max-width: 992px) {
   #section1 {
