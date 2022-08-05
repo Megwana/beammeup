@@ -94,6 +94,19 @@ The landing page includes a background image of an astronaut. The background ima
 
 ![Event times](assets/images/read.me.images/event-times.png)
 
+-__The Dropdown Bar__
+
+On the movies page, I have featured a dropdown box, based off of an accordion. It is able to appear and disappear with more in depth information about each movie and the club's overall review. I wanted a dropdown bar feature because I thought it would make a better user experience to be able to preview each movie title and rating. If there was a particular movie that took a newcomers interest, they could dropdown the bar for more. Rather than overwhelm people with a whole article of text like most formal reviews. After all, this club is meant to be casual and social experience for space-themed science-fiction movie lovers.
+
+See below the dropdown bar for the movie Arrival, when is it closed:
+
+![Dropdown Bar closed](assets/images/read.me.images/dropdown1.png)
+
+See below the dropdown bar for the movie Arrival, when is it clicked on and opened:
+
+![Dropdown Bar open](assets/images/read.me.images/dropdown2.png)
+
+
 -__The Footer__
 
 The footer bar features links to all the relevant social media sites that Beam Me Up has accounted for. In addition, the links open into a new tab to let the site user have easy navigation and the ability to still browse the Beam Me Up website. 
