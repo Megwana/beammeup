@@ -283,9 +283,10 @@ https://codepen.io/dcode-software/pen/oNjXqzg
 
 ### Acknowledgments & Thank yous
 
-Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state.
+Thank you to my mentor Jubril Akolade for your support and feedback on my project which helped me develop it into its finished state. 
 
-Including, the standard breakpoints for a responsive website via https://www.w3schools.com/
+Including, the standard breakpoints for a responsive website via https://www.w3schools.com/. 
+In addition, a note to minimise my headers on the about, movie and contact page for mobile devices. 
 
 Thank you Ashkat Garg for the recommendation of the following technologies:
 
@@ -294,7 +295,11 @@ Thank you Ashkat Garg for the recommendation of the following technologies:
 - Flexbox Froggy - https://flexboxfroggy.com/
 - Webformatter - https://webformatter.com/
 
-A special thank you to the helpful feedback from Kera Cudmore and Mateusz for my Peer Review.
+A special thank you to the helpful feedback from Kera Cudmore and Mateusz Smalarz for my Peer Review and suggesting the following: 
+
+- To add a link to the home page on the 'Beam Me Up' Logo.
+- To add a 404 error page.
+- To add a favicon.
 
 ### Media
 
