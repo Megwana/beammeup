@@ -170,41 +170,41 @@ Please see the final lighthouse review scores for each page:
 
 Mobile Device:
 
-![Index Page HTML](assets/images/read.me.images/live-mob-light.png)
+![Index Page HTML](assets/images/read.me.images/lighthouse-index-mobile.png)
 
 Desktop Device: 
 
-![Index Page HTML](assets/images/read.me.images/live-desk-lighthouse.png)
+![Index Page HTML](assets/images/read.me.images/lighthouse-index-desktop.png)
 
 - About Page (about.html)
 
 Mobile Device:
 
-![About Page HTML](assets/images/read.me.images/about-live-mob-light.png)
+![About Page HTML](assets/images/read.me.images/lighthouse-about-mobile.png)
 
 Desktop Device: 
 
-![About Page HTML](assets/images/read.me.images/about-live-desk-light.png)
+![About Page HTML](assets/images/read.me.images/lighthouse-about-desktop.png)
 
 - Movie Review Page (movies.html)
 
 Mobile Device:
 
-![Movie Page HTML](assets/images/read.me.images/movies-live-mob-light.png)
+![Movie Page HTML](assets/images/read.me.images/lighthouse-movie-mobile.png)
 
 Desktop Device: 
 
-![Movie Page HTML](assets/images/read.me.images/movies-live-desk-light.png)
+![Movie Page HTML](assets/images/read.me.images/lighthouse-movie-desktop.png)
 
 - Contact Page (contact.html)
 
 Mobile Device:
 
-![Contact Page HTML](assets/images/read.me.images/contact-live-mob-light.png)
+![Contact Page HTML](assets/images/read.me.images/lighthouse-contact-mobile.png)
 
 Desktop Device: 
 
-![Contact Page HTML](assets/images/read.me.images/contact-live-desk-light.png)
+![Contact Page HTML](assets/images/read.me.images/lighthouse-contact-desktop.png)
 
 ### Bugs 
 
