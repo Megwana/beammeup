@@ -176,10 +176,11 @@ I have tested this site on Google Chrome, Mozilla Firefox and Microsoft Edge, an
 
 To test my code, I used W3C Validator for both HTML and CSS.
 
-* [Index Page HTML](assets/images/read.me.images/index.html-validator.png)
-* [About Page HTML](assets/images/read.me.images/about.page-validator.png)
-* [Movies Page HTML](assets/images/read.me.images/movies-validator.png)
-* [Contact Page HTML](assets/images/read.me.images/contact-validator.png)
+* [Index Page HTML](assets/images/read.me.images/htmlvalidator-index.png)
+* [About Page HTML](assets/images/read.me.images/htmlvalidator-about.png)
+* [Movies Page HTML](assets/images/read.me.images/htmlvalidator-movies.png)
+* [Contact Page HTML](assets/images/read.me.images/htmlvalidator-contact.png)
+* [404 Page HTML](assets/images/read.me.images/htmlvalidator-404.png)
 * [Style.css CSS](assets/images/read.me.images/css-validator.png)
 
 ### Lighthouse Testing 
