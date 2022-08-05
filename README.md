@@ -106,6 +106,13 @@ See below the dropdown bar for the movie Arrival, when is it clicked on and open
 
 ![Dropdown Bar open](assets/images/read.me.images/dropdown2.png)
 
+-__The contact page__
+
+On the contact page, I have ensured that anyone contacting the Beam Me Up club, must disclose their name, email and a message. This will ensure a personalised experience when responding to them by name. In addition, will allow the club to keep an organised log of individuals or common questions asked to potentially edit the about page or make further features to increase easy access of information on the site.
+
+See below the contact feature:
+
+![Dropdown Bar open](assets/images/read.me.images/contact-feature.png)
 
 -__The Footer__
 
