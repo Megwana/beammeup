@@ -657,6 +657,11 @@ display: grid;
   height: 60px;
 }
 
+#movies-page h3 {
+  font-size: 50px;
+  padding-top: 0;
+}
+
 
 form p {
   font-weight: 400;
