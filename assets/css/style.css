@@ -718,12 +718,6 @@ button {
   min-height: 80vh;
 }
 
-  .abt-img > img {
-    object-fit: contain;
-    width: 100%;
-    border-radius: 20px;
-  }
-
   .movies-content {
     color: #000000;
     padding-top: 20px;
