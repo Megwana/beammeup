@@ -211,11 +211,11 @@ Desktop Device:
 
 Mobile Device:
 
-![Movie Page HTML](assets/images/read.me.images/lighthouse-movie-mobile.png)
+![Movie Page HTML](assets/images/read.me.images/lighthouse-movies-mobile.png)
 
 Desktop Device: 
 
-![Movie Page HTML](assets/images/read.me.images/lighthouse-movie-desktop.png)
+![Movie Page HTML](assets/images/read.me.images/lighthouse-movies-desktop.png)
 
 - Contact Page (contact.html)
 
